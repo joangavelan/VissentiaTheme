@@ -1,0 +1,12 @@
+header {
+  background-color: #000;
+  width: 100%;
+  height: 100px;
+}
+
+.content {
+  min-height: 1000px;
+  width: 100%;
+  background-color: #7b7b7b;
+}
+
