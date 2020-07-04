@@ -53,6 +53,11 @@ html {
   font-size: 62.5%;
 }
 
+.site-content {
+  width: 110rem;
+  margin: 0 auto;
+}
+
 .heading-primary {
   font-family: "Noto Sans Hk", sans-serif;
   font-size: 3.2rem;
@@ -159,5 +164,31 @@ html {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60rem;
+  margin: 0 auto;
+  background-color: #4FB477;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__slogan {
+  font-size: 6.5rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.hero__description {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2.3rem;
+  color: #fff;
+  font-weight: 400;
 }
 

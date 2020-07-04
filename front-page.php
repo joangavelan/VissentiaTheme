@@ -1,8 +1,6 @@
 <?php get_header(); ?>
 
+<?php require_once 'includes/section-hero.php' ?>
 
-<div class="content">
-
-</div>
 
 <?php get_footer(); ?>
