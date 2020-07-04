@@ -1,0 +1,19 @@
+.heading-primary {
+    font-family: $font-secondary;
+    font-size: $fs-bg;
+    color: $color-text;
+}
+
+.heading-secondary {
+    font-family: $font-secondary;
+    font-weight: 500;
+    font-size: $fs-md;
+    color: $color-text;
+}
+
+.paragraph {
+    font-family: $font-tertiary;
+    font-size: $fs-sm;
+    color: $color-text;
+    line-height: 150%;
+}

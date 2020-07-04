@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\wordpress\wp-content\themes\Vissentia\src\js\main.js */"./src/js/main.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\wordpress\wp-content\themes\Vissentia\src\sass\main.scss */"./src/sass/main.scss");
+__webpack_require__(/*! C:\laragon\www\Vissentia\wp-content\themes\Vissentia\src\js\main.js */"./src/js/main.js");
+module.exports = __webpack_require__(/*! C:\laragon\www\Vissentia\wp-content\themes\Vissentia\src\sass\main.scss */"./src/sass/main.scss");
 
 
 /***/ })
