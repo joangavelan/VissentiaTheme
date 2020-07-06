@@ -12,18 +12,24 @@
 
 
 <!--HEADER-->
-<header>
-
-        <?php
-        wp_nav_menu (
+<header class="header">
+    <div class="header__logo-container">
+            <div class="header__logo-box">
+                <span class="header__logo"></span>
+                <h2 class="header__title">Vissentia</h2>
+            </div>
+    </div>
     
-            array(
-                'theme_location' => 'top-menu',
-                'menu_class' => 'top-bar-menu'
-            )
+    <?php
+    wp_nav_menu (
     
-        );
-        ?>
+        array(
+            'theme_location' => 'top-menu',
+            'menu_class' => 'top-bar-menu'
+        )
+    
+    );
+    ?>
 
 </header>
 <!---->
