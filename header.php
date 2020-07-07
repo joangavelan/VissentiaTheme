@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vissentia</title>
+    <script src="https://kit.fontawesome.com/542ea1a396.js" crossorigin="anonymous"></script>
     
     <?php wp_head(); ?>
 
@@ -20,6 +21,9 @@
             </div>
     </div>
     
+    <div class="toggle">
+        <i class="fas fa-bars"></i>
+    </div>
     <?php
     wp_nav_menu (
     

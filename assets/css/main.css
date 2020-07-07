@@ -86,7 +86,6 @@ html {
   flex-direction: column;
   align-items: center;
   padding: 1.5rem;
-  margin: 1rem 0;
 }
 
 .header__logo {
@@ -106,7 +105,8 @@ html {
 }
 
 .header .menu-main-menu-container {
-  border: 1px solid #a1a1a1;
+  border-top: 1px solid #a1a1a1;
+  border-bottom: 1px solid #a1a1a1;
   padding: 1rem 0;
 }
 
@@ -131,6 +131,41 @@ html {
   display: block;
   color: #231F20;
   text-decoration: none;
+}
+
+.header .toggle {
+  width: 100%;
+  padding: 1rem 2rem;
+  text-align: right;
+  color: #231F20;
+  font-size: 3rem;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header .toggle {
+    display: block;
+    text-align: center;
+  }
+
+  .header .menu-main-menu-container {
+    border: none;
+  }
+
+  .header ul {
+    width: 100%;
+    flex-direction: column;
+    display: none;
+  }
+
+  .header ul li {
+    margin: 1.5rem 0;
+    text-align: center;
+  }
+
+  .header .active {
+    display: block;
+  }
 }
 
 .hero {
