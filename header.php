@@ -14,26 +14,21 @@
 
 <!--HEADER-->
 <header class="header">
-    <div class="header__logo-container">
-            <div class="header__logo-box">
-                <span class="header__logo"></span>
-                <h2 class="header__title">Vissentia</h2>
-            </div>
-    </div>
+
+    <nav class="header__nav">
+    <div class="header__logo">Vissentia</div>
+        
+        <?php
+        wp_nav_menu (
     
-    <div class="toggle">
-        <i class="fas fa-bars"></i>
-    </div>
-    <?php
-    wp_nav_menu (
+          array(
+                'theme_location' => 'top-menu',
+            )
     
-        array(
-            'theme_location' => 'top-menu',
-            'menu_class' => 'top-bar-menu'
-        )
-    
-    );
-    ?>
+        );
+        ?>
+        
+    </nav>
 
 </header>
 <!---->

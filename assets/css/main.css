@@ -71,101 +71,89 @@ html {
   padding-bottom: 2rem;
 }
 
-.header {
-  margin: 1rem 0;
-  padding: 1rem 0;
-}
-
-.header__logo-container {
-  display: flex;
-  justify-content: center;
-}
-
-.header__logo-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1.5rem;
-}
-
 .header__logo {
-  display: block;
-  background-image: linear-gradient(to bottom, #4FB477, #9CFC97);
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
+  color: #fff;
+  font-size: 2.7rem;
+  float: left;
+  line-height: 7rem;
+  padding-left: 6rem;
 }
 
-.header__title {
-  font-size: 3.7rem;
-  font-family: "Frank Ruhl Libre", serif;
-  font-weight: 500;
-  color: #4FB477;
-  margin-top: 3px;
+.header__nav {
+  background-color: #1b1b1b;
 }
 
-.header .menu-main-menu-container {
-  border-top: 1px solid #a1a1a1;
-  border-bottom: 1px solid #a1a1a1;
-  padding: 1rem 0;
+.header__nav::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-.header ul {
-  width: 110rem;
-  display: flex;
-  justify-content: space-evenly;
+.header__nav ul {
+  float: right;
   list-style: none;
-  margin: 0 auto;
+  margin-right: 40px;
+  position: relative;
 }
 
-.header li {
+.header__nav ul li {
+  float: left;
+  display: inline-block;
+  background-color: #1b1b1b;
+  margin: 0 5px;
+}
+
+.header__nav ul li a {
   font-family: "Nunito Sans", sans-serif;
-  font-size: 1.45rem;
-  font-weight: 500;
-  color: #444444;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.header a {
-  display: block;
-  color: #231F20;
+  font-size: 1.5rem;
+  color: #fff;
   text-decoration: none;
+  line-height: 70px;
+  padding: 8px 15px;
 }
 
-.header .toggle {
-  width: 100%;
-  padding: 1rem 2rem;
-  text-align: right;
-  color: #231F20;
-  font-size: 3rem;
-  display: none;
+.header__nav ul li a:hover {
+  color: cyan;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
 }
 
-@media (max-width: 768px) {
-  .header .toggle {
-    display: block;
-    text-align: center;
-  }
+.header__nav ul ul li a:hover {
+  color: cyan;
+  box-shadow: none;
+}
 
-  .header .menu-main-menu-container {
-    border: none;
-  }
+.header__nav ul ul {
+  position: absolute;
+  top: 7rem;
+  border-top: 3px solid cyan;
+  opacity: 0;
+  visibility: hidden;
+  transition: top 0.3s;
+}
 
-  .header ul {
-    width: 100%;
-    flex-direction: column;
-    display: none;
-  }
+.header__nav ul li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+}
 
-  .header ul li {
-    margin: 1.5rem 0;
-    text-align: center;
-  }
+.header__nav ul ul li {
+  position: relative;
+  margin: 0px;
+  width: 15rem;
+  float: none;
+  display: list-item;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
 
-  .header .active {
-    display: block;
-  }
+.header__nav ul ul li a {
+  line-height: 5rem;
+}
+
+.header__nav ul ul ul li {
+  position: relative;
+  top: -7rem;
+  left: 15rem;
 }
 
 .hero {

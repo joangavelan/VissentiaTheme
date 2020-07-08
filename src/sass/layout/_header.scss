@@ -1,99 +1,88 @@
 .header {
-    margin: 1rem 0;
-    padding: 1rem 0;
-
-    //LOGO
-    &__logo-container {
-        display: flex;
-        justify-content: center;
-    }
-
-    &__logo-box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 1.5rem;
-    }
 
     &__logo {
-        display: block;
-        background-image: linear-gradient(to bottom, $color-primary, $color-primary-light);
-        width: 50px;
-        height: 50px;
-        border-radius: 100%;
+        color: $color-white;
+        font-size: 2.7rem;
+        float: left;
+        line-height: 7rem;
+        padding-left: 6rem;
     }
 
-    &__title {
-        font-size: 3.7rem;
-        font-family: $font-primary;
-        font-weight: 500;
-        color: $color-primary;
-        margin-top: 3px;
+    &__nav {
+        background-color: #1b1b1b;
     }
 
-    //MENU
-    & .menu-main-menu-container {
-        border-top: 1px solid #a1a1a1;
-        border-bottom: 1px solid #a1a1a1;
-        padding: 1rem 0;
+    &__nav::after {
+        content: '';
+        clear: both;
+        display: table;
     }
 
-    & ul {
-        width: 110rem;
-        display: flex;
-        justify-content: space-evenly;
+    &__nav ul {
+        float: right;
         list-style: none;
-        margin: 0 auto;
+        margin-right: 40px;
+        position: relative;
     }
 
-    & li {
+    &__nav ul li {
+        float: left;
+        display: inline-block;
+        background-color: #1b1b1b;
+        margin: 0 5px;
+    }
+
+    &__nav ul li a {
         font-family: $font-tertiary;
-        font-size: 1.45rem;
-        font-weight: 500;
-        color: rgb(68, 68, 68);
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-
-    & a {
-        display: block;
-        color: $color-text;
+        font-size: 1.5rem;
+        color: $color-white;
         text-decoration: none;
+        line-height: 70px;
+        padding: 8px 15px;
     }
 
-    //TOGGLE
-    .toggle {
-        width: 100%;
-        padding: 1rem 2rem;
-        text-align: right;
-        color: $color-text;
-        font-size: 3rem;
-        display: none;
+    &__nav ul li a:hover {
+        color: cyan;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #33ffff,
+                    0 0 5px #66ffff,
     }
 
-    @media (max-width: 768px) {
-        .toggle {
-            display: block;
-            text-align: center;
-        }
+    &__nav ul ul li a:hover {
+        color: cyan;
+        box-shadow: none;
+    }
 
-        & .menu-main-menu-container {
-            border: none;
-        }
+    &__nav ul ul {
+        position: absolute;
+        top: 7rem;
+        border-top: 3px solid cyan;
+        opacity: 0;
+        visibility: hidden;
+        transition: top .3s;
+    }
+    
+    &__nav ul li:hover > ul {
+        opacity: 1;
+        visibility: visible;
+    }
 
-        ul {
-            width: 100%;
-            flex-direction: column;
-            display: none;
-        }
+    &__nav ul ul li {
+        position: relative;
+        margin: 0px;
+        width: 15rem;
+        float: none;
+        display: list-item;
+        border-bottom: 1px solid rgba(0,0,0,.3);
+    }
 
-        ul li {
-            margin: 1.5rem 0;
-            text-align: center;
-        }
+    &__nav ul ul li a {
+        line-height: 5rem;
+    }
 
-        .active {
-            display: block;
-        }
-}
+    &__nav ul ul ul li {
+        position: relative;
+        top: -7rem;
+        left: 15rem;
+    }
 }
