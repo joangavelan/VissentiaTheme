@@ -132,6 +132,10 @@ html {
   transition: top 0.3s;
 }
 
+.header__nav ul ul ul {
+  border-top: none;
+}
+
 .header__nav ul li:hover > ul {
   opacity: 1;
   visibility: visible;
@@ -154,6 +158,101 @@ html {
   position: relative;
   top: -7rem;
   left: 15rem;
+}
+
+.header__nav span {
+  margin-left: 4rem;
+  font-size: 1.5rem;
+}
+
+.header .show,
+.header .icon,
+.header input {
+  display: none;
+}
+
+@media all and (max-width: 968px) {
+  .header__nav ul {
+    margin-right: 0px;
+    float: left;
+  }
+
+  .header__logo {
+    padding-left: 30px;
+    width: 100%;
+  }
+
+  .header__nav ul li,
+  .header__nav ul ul li {
+    display: block;
+    width: 100%;
+  }
+
+  .header__nav ul ul {
+    top: 7rem;
+    position: static;
+    border-top: none;
+    float: none;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .header__nav ul ul ul li {
+    position: static;
+  }
+
+  .header__nav ul ul li {
+    border-bottom: 0px;
+  }
+
+  .header__nav ul ul a {
+    padding-left: 4rem;
+  }
+
+  .header__nav ul ul ul a {
+    padding-left: 8rem;
+  }
+
+  .header .show {
+    font-family: "Nunito Sans", sans-serif;
+    display: block;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+    line-height: 7rem;
+    cursor: pointer;
+  }
+
+  .header .show-sub {
+    padding-left: 4rem;
+  }
+
+  .header .show:hover {
+    color: cyan;
+  }
+
+  .header .icon {
+    display: block;
+    color: #fff;
+    position: absolute;
+    right: 4rem;
+    line-height: 7rem;
+    font-size: 2.5rem;
+  }
+
+  .header__nav ul li a:hover {
+    box-shadow: none;
+  }
+
+  .header .show + a,
+  .header ul {
+    display: none;
+  }
+
+  .header [id^=btn]:checked + ul {
+    display: block;
+  }
 }
 
 .hero {

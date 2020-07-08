@@ -61,6 +61,10 @@
         visibility: hidden;
         transition: top .3s;
     }
+
+    &__nav ul ul ul {
+        border-top: none;
+    }
     
     &__nav ul li:hover > ul {
         opacity: 1;
@@ -84,5 +88,98 @@
         position: relative;
         top: -7rem;
         left: 15rem;
+    }
+
+    &__nav span {
+        margin-left: 4rem;
+        font-size: 1.5rem;
+    }
+
+    & .show, .icon, input {
+        display: none;
+    }
+
+    @media all and (max-width: 968px) {
+        
+        &__nav ul {
+            margin-right: 0px;
+            float: left;
+        }
+
+        &__logo {
+            padding-left: 30px;
+            width: 100%;
+        }
+
+        &__nav ul li,
+        &__nav ul ul li {
+            display: block;
+            width: 100%;
+        }
+
+        &__nav ul ul {
+            top: 7rem;
+            position: static;
+            border-top: none;
+            float: none;
+            display: none;
+            opacity: 1;
+            visibility: visible;
+        }
+
+        &__nav ul ul ul li {
+            position: static;
+        }
+
+        &__nav ul ul li {
+            border-bottom: 0px;
+        }
+
+        &__nav ul ul a {
+            padding-left: 4rem;
+        }
+
+        &__nav ul ul ul a {
+            padding-left: 8rem;
+        }
+
+        .show {
+            font-family: $font-tertiary;
+            display: block;
+            color: $color-white;
+            font-size: 1.5rem;
+            padding: 0 1.5rem;
+            line-height: 7rem;
+            cursor: pointer;
+        }
+
+        .show-sub {
+            padding-left: 4rem;
+        }
+
+        .show:hover {
+            color: cyan;
+        }
+
+        .icon {
+            display: block;
+            color: $color-white;
+            position: absolute;
+            right: 4rem;
+            line-height: 7rem;
+            font-size: 2.5rem;
+        }
+
+        &__nav ul li a:hover {
+            box-shadow: none;
+        }
+
+        .show + a, ul {
+            display: none;
+        }
+
+        [id^=btn]:checked + ul {
+            display: block;
+        }
     }
 }
