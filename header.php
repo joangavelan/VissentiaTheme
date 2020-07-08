@@ -63,7 +63,7 @@
                     <li><a href="#">Colesterol</a></li>
                 </ul>
             </li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="http://vissentia.test/category/blog/">Blog</a></li>
             <li><a href="#">Contacto</a></li>
         </ul>
 

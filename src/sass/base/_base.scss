@@ -10,6 +10,11 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    font-family: $font-tertiary;
+    font-size: 1.6rem !important;
+}
+
 .site-content {
     width: 110rem;
     margin: 0 auto;

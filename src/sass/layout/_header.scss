@@ -1,6 +1,7 @@
 .header {
 
     &__logo {
+        font-family: $font-primary;
         color: $color-white;
         font-size: 2.7rem;
         float: left;
