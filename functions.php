@@ -23,6 +23,7 @@ add_action('wp_enqueue_scripts', 'vissentia_scripts');
 //Theme Options
 
 add_theme_support('menus');
+add_theme_support('post-thumbnails');
 
 
 //Menus
@@ -34,3 +35,8 @@ register_nav_menus (
         'mobile-menu' => 'Mobile Menu Location',
     )
 );
+
+
+//Custom image sizes
+add_image_size('blog-large', 750, 425, true);
+add_image_size('blog-small', 300, 200, true);
