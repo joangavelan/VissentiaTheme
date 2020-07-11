@@ -324,3 +324,16 @@ body {
   }
 }
 
+.feed {
+  display: flex;
+}
+
+.feed__articles {
+  max-width: 75rem;
+}
+
+.feed__sidebar {
+  max-width: 30rem;
+  margin-left: 5rem;
+}
+

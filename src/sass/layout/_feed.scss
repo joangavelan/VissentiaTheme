@@ -1,0 +1,12 @@
+.feed {
+    display: flex;
+
+    &__articles {
+        max-width: 75rem;
+    }
+
+    &__sidebar {
+        max-width: 30rem;
+        margin-left: 5rem;
+    }
+}
