@@ -24,6 +24,7 @@ add_action('wp_enqueue_scripts', 'vissentia_scripts');
 
 add_theme_support('menus');
 add_theme_support('post-thumbnails');
+add_theme_support('widgets');
 
 
 //Menus
@@ -37,6 +38,37 @@ register_nav_menus (
 );
 
 
-//Custom image sizes
+//Custom Image Sizes
 add_image_size('blog-large', 750, 425, true);
 add_image_size('blog-small', 300, 200, true);
+
+
+
+//Register Sidebars
+function my_sidebars() {
+
+    register_sidebar(
+
+        array(
+            'name' => 'Page Sidebar',
+            'id' => 'page-sidebar',
+            'before_title' => '<h4 class="widget-title">',
+            'after_title' => '</h4>'
+        )
+
+    );
+
+    register_sidebar(
+
+        array(
+            'name' => 'Blog Sidebar',
+            'id' => 'blog-sidebar',
+            'before_title' => '<h4 class="widget-title">',
+            'after_title' => '</h4>'
+        )
+
+    );
+
+}
+
+add_action('widgets_init', 'my_sidebars');
