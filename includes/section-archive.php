@@ -10,12 +10,14 @@
 
     <?php the_excerpt(); ?>
 
-    <a href="<?php the_permalink();?>">Read More</a>
+    <a href="<?php the_permalink();?>">Leer más</a>
 
 <?php endwhile; else: endif;?>
 
 <?= '<br>' ?>
 
+
+<?php //Pagination ?>
 <?php 
     global $wp_query;
 
