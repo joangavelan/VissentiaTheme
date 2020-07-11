@@ -22,7 +22,7 @@
     </label>
     <input type="checkbox" id="btn">
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="http://vissentia.test/">Home</a></li>
             <li><a href="#">Nosotros</a></li>
             <li>
             <label for="btn-1" class="show">Superalimentos +</label>
@@ -63,7 +63,7 @@
                     <li><a href="#">Colesterol</a></li>
                 </ul>
             </li>
-            <li><a href="http://vissentia.test/category/blog/">Blog</a></li>
+            <li><a href="http://vissentia.test/blog/">Blog</a></li>
             <li><a href="#">Contacto</a></li>
         </ul>
 

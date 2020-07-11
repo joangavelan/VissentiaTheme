@@ -1,3 +1,7 @@
-<?php
+<?php get_header(); ?>
 
-echo "<h2>The official theme for Vissentia.</h2>";
+<h1><?php the_title();?></h1>
+
+<?php get_template_part('includes/section','content'); ?>
+
+<?php get_footer(); ?>
