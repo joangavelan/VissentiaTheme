@@ -10,14 +10,14 @@ html {
     font-size: 62.5%;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: $font-secondary;
-}
-
 @media only screen and (max-width: 68.75em) {
     html {
       font-size: 56.5%; }
     }
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: $font-secondary;
+}
 
 body {
     font-family: $font-tertiary;
@@ -27,4 +27,8 @@ body {
 .site-content {
     max-width: 110rem;
     margin: 0 auto;
+
+    @media only screen and (max-width: 68.75em) {
+        padding: 0 2rem;
+    }
 }

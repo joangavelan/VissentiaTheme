@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     height: 60rem;
-    margin: 0 auto;
+    margin: 3rem auto;
     padding: 0 2rem; 
     background-color: $color-primary;
     background-position: center;
@@ -20,7 +20,7 @@
         font-weight: 400;
         color: $color-white;
 
-        @media only screen and (max-width: 75rem) {
+        @media only screen and (max-width: 68.5em) {
             font-size: 4.5rem;
         }
     }
@@ -31,7 +31,7 @@
         color: $color-white;
         font-weight: 400;
 
-        @media only screen and (max-width: 75rem) {
+        @media only screen and (max-width: 68.5em) {
             font-size: 2rem;
             margin-top: 1rem;
         }
