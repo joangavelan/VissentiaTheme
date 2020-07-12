@@ -16,7 +16,7 @@
 <header class="header">
 
     <nav class="header__nav">
-    <div class="header__logo">Vissentia</div>
+    <a href="http://vissentia.test/"><div class="header__logo">Vissentia</div></a>
     <label for="btn" class="icon">
         <span class="fa fa-bars"></span>
     </label>
@@ -64,7 +64,7 @@
                 </ul>
             </li>
             <li><a href="http://vissentia.test/blog/">Blog</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="http://vissentia.test/contacto/">Contacto</a></li>
         </ul>
 
     </nav>

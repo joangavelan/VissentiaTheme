@@ -12,7 +12,11 @@
 
     <a href="<?php the_permalink();?>">Leer más</a>
 
-<?php endwhile; else: endif;?>
+<?php endwhile; else: ?>
+
+    No hay resultados de la búsqueda "<?php the_search_query();?>"
+    
+<?php endif;?>
 
 <?= '<br>' ?>
 

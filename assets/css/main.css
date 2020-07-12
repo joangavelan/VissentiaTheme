@@ -28,7 +28,7 @@ h6 {
 
 body {
   font-family: "Nunito Sans", sans-serif;
-  font-size: 1.6rem !important;
+  font-size: 1.7rem;
 }
 
 .site-content {
@@ -328,12 +328,64 @@ body {
   display: flex;
 }
 
+@media only screen and (max-width: 62.5em) {
+  .feed {
+    flex-direction: column;
+  }
+}
+
 .feed__articles {
   max-width: 75rem;
+}
+
+@media only screen and (max-width: 62.5em) {
+  .feed__articles {
+    max-width: 100%;
+  }
 }
 
 .feed__sidebar {
   max-width: 30rem;
   margin-left: 5rem;
+}
+
+.article {
+  display: flex;
+  height: 20rem;
+}
+
+.article__img {
+  width: 30rem;
+  height: 100%;
+}
+
+.article__img:hover {
+  -webkit-filter: brightness(106%);
+          filter: brightness(106%);
+}
+
+.article__content {
+  padding: 1rem 2rem;
+}
+
+.article__title {
+  font-family: "Noto Sans Hk", sans-serif;
+  font-size: 2.6rem;
+}
+
+.article a {
+  text-decoration: none;
+}
+
+.article__title:hover {
+  color: #4FB477;
+}
+
+.article > p {
+  margin: 1rem 0 2.5rem;
+}
+
+.article:not(:first-child) {
+  margin: 3rem 0;
 }
 

@@ -1,0 +1,38 @@
+.article {
+    display: flex;
+    height: 20rem;
+
+    &__img {
+        width: 30rem;
+        height: 100%;
+
+        &:hover {
+            filter: brightness(106%);
+        }
+    }
+
+    &__content {
+        padding: 1rem 2rem;
+    }
+
+    &__title {
+        font-family: $font-secondary;
+        font-size: 2.6rem;
+    }
+
+    & a {
+        text-decoration: none;
+    }
+
+    &__title:hover {
+        color: $color-primary;
+    }
+
+    & > p {
+        margin: 1rem 0 2.5rem;
+    }
+
+    &:not(:first-child) {
+        margin: 3rem 0;
+    }
+}

@@ -12,20 +12,23 @@
 
     <?php while($_posts->have_posts()) : $_posts->the_post();?> 
 
-        <a href="<?php the_permalink();?>"><?php the_title();?></a><br>
-
-        <?php if(has_post_thumbnail()) : ?>
-        <a href="<?php the_permalink();?>"><img src="<?php the_post_thumbnail_url('blog-small');?>" alt="<?php the_title();?>"></a>
-        <?php endif; ?>
-
-        <?php the_excerpt(); ?>
+        <div class="article">
+            <?php if(has_post_thumbnail()) : ?>
+            <a href="<?php the_permalink();?>"><img class="article__img" src="<?php the_post_thumbnail_url('blog-small');?>" alt="<?php the_title();?>"></a>
+            <?php endif; ?>
+            
+            <div class="article__content">
+                <a class="article__title heading-secondary" href="<?php the_permalink();?>"><?php the_title();?></a>
+        
+                <p class="article__description paragraph"><?php the_excerpt();?></p>
+            </div>
+        </div>
     
     <?php endwhile;?>
 
 <?php endif;?>
 
-<?php //Pagination ?>
-<?php 
+<?php //Pagination
     global $wp_query;
 
     $big = 999999999; // unlikely integer

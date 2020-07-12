@@ -21,14 +21,12 @@ add_action('wp_enqueue_scripts', 'vissentia_scripts');
 
 
 //Theme Options
-
 add_theme_support('menus');
 add_theme_support('post-thumbnails');
 add_theme_support('widgets');
 
 
 //Menus
-
 register_nav_menus (
 
     array(
@@ -47,16 +45,6 @@ add_image_size('blog-small', 300, 200, true);
 //Register Sidebars
 function my_sidebars() {
 
-    register_sidebar(
-
-        array(
-            'name' => 'Page Sidebar',
-            'id' => 'page-sidebar',
-            'before_title' => '<h4 class="widget-title">',
-            'after_title' => '</h4>'
-        )
-
-    );
 
     register_sidebar(
 
@@ -72,3 +60,11 @@ function my_sidebars() {
 }
 
 add_action('widgets_init', 'my_sidebars');
+
+
+//Post Excerpt Lenght
+function custom_excerpt_lenght($lenght) {
+    return 20;
+}
+
+add_filter('excerpt_lenght', 'custom_excerpt_lenght');
