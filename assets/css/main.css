@@ -334,12 +334,12 @@ body {
   }
 }
 
-.feed__articles {
+.feed__main {
   max-width: 75rem;
 }
 
 @media only screen and (max-width: 62.5em) {
-  .feed__articles {
+  .feed__main {
     max-width: 100%;
   }
 }

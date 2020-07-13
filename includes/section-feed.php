@@ -1,6 +1,6 @@
 <section class="feed">
 
-    <div class="feed__articles">
+    <div class="feed__main">
         <?php get_template_part('includes/section','posts'); ?>
     </div>
 
