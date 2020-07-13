@@ -377,6 +377,10 @@ body {
   text-decoration: none;
 }
 
+.article__description {
+  margin-top: 1.5rem;
+}
+
 .article__title:hover {
   color: #4FB477;
 }
@@ -387,5 +391,28 @@ body {
 
 .article:not(:first-child) {
   margin: 3rem 0;
+}
+
+.read-more {
+  display: inline-block;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #231f20;
+  margin-top: 1.8rem;
+}
+
+.read-more span {
+  display: inline-block;
+  margin-left: 5px;
+  transition: 150ms;
+}
+
+.read-more:hover span {
+  transform: translateX(5px);
+}
+
+.read-more:hover {
+  color: #4FB477;
 }
 

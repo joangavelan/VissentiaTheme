@@ -24,6 +24,10 @@
         text-decoration: none;
     }
 
+    &__description {
+        margin-top: 1.5rem;
+    }
+
     &__title:hover {
         color: $color-primary;
     }

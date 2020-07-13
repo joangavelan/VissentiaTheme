@@ -21,7 +21,10 @@
                 <a class="article__title heading-secondary" href="<?php the_permalink();?>"><?php the_title();?></a>
         
                 <p class="article__description paragraph"><?php the_excerpt();?></p>
+
+                <a href="<?php the_permalink();?>" class="read-more">Leer más<span>&#8594;</span></a>
             </div>
+
         </div>
     
     <?php endwhile;?>
