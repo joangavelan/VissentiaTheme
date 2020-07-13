@@ -14,7 +14,7 @@
 
         <div class="article">
             <?php if(has_post_thumbnail()) : ?>
-            <a href="<?php the_permalink();?>"><img class="article__img" src="<?php the_post_thumbnail_url('blog-small');?>" alt="<?php the_title();?>"></a>
+            <a href="<?php the_permalink();?>"><img class="article__img" src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>"></a>
             <?php endif; ?>
             
             <div class="article__content">
