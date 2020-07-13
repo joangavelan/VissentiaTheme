@@ -62,9 +62,17 @@ function my_sidebars() {
 add_action('widgets_init', 'my_sidebars');
 
 
-//Post Excerpt Lenght
-function custom_excerpt_lenght($lenght) {
-    return 20;
-}
+//Excerpt
 
-add_filter('excerpt_lenght', 'custom_excerpt_lenght');
+//length
+function my_excerpt_length($length){
+    return 27;
+    }
+
+add_filter('excerpt_length', 'my_excerpt_length');
+
+//dots
+function new_excerpt_more($more) {
+	return '..';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
