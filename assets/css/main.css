@@ -371,6 +371,89 @@ body {
   }
 }
 
+.footer {
+  padding: 3rem 0 4rem;
+  background-color: #eff0ee;
+  text-align: center;
+  /*
+  &__nav {
+      display: flex;
+      justify-content: center;
+      padding: 2rem;
+  }
+  */
+}
+
+.footer__title {
+  font-size: 3.7rem;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 500;
+  color: #4FB477;
+}
+
+.footer__title span {
+  color: #8f8f8f;
+  margin-left: 3px;
+}
+
+.footer__logo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.footer__menu {
+  width: 85rem;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer__link {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.45rem;
+  font-weight: 500;
+  color: #444444;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer__link:hover {
+  color: #4FB477;
+}
+
+.footer__rights {
+  display: block;
+  font-family: "Nunito Sans";
+  font-size: 1.6rem;
+  color: #231f20;
+}
+
+.footer__privacy {
+  font-family: "Nunito Sans";
+  font-size: 1.6rem;
+  color: #231f20;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.footer__privacy:hover {
+  text-decoration: underline;
+}
+
+.footer__copyright {
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 25em) {
+  .footer__copyright,
+  .footer__privacy {
+    font-size: 1.5rem;
+  }
+}
+
 .article {
   display: flex;
   height: 20rem;

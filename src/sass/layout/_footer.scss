@@ -1,0 +1,83 @@
+.footer {
+    padding: 3rem 0 4rem;
+    background-color: #eff0ee;
+    text-align: center;
+
+    &__title {
+        font-size: 3.7rem;
+        font-family: $font-primary;
+        font-weight: 500;
+        color: $color-primary;
+
+        & span {
+            color: #8f8f8f;
+            margin-left: 3px;
+        }
+    }
+
+    &__logo-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1.5rem 0;
+    }
+    
+    /*
+    &__nav {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+    */
+
+    &__menu {
+        width: 85rem;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    &__link {
+        font-family: $font-tertiary;
+        font-size: 1.45rem;
+        font-weight: 500;
+        color: rgb(68, 68, 68);
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+    
+    &__rights {
+        display: block;
+        font-family: 'Nunito Sans';
+        font-size: 1.6rem;
+        color: $color-text;
+    }
+
+    &__privacy {
+        font-family: 'Nunito Sans';
+        font-size: 1.6rem;
+        color: $color-text;
+        text-decoration: none;
+        margin-right: 5px;
+
+        &:hover {
+            text-decoration: underline;
+        }  
+    }
+
+    &__copyright {
+        margin-left: 5px;
+    }
+
+    @media only screen and (max-width: 25em) {
+        &__copyright,
+        &__privacy {
+            font-size: 1.5rem;
+        }
+    }
+}
