@@ -25,20 +25,20 @@
             <li><a href="http://vissentia.test/">Home</a></li>
             <li><a href="#">Nosotros</a></li>
             <li>
-            <label for="btn-1" class="show">Superalimentos +</label>
+            <label for="btn-1" class="show">Superalimentos</label>
             <a href="#">Superalimentos</a>
             <input type="checkbox" id="btn-1">
-                <ul>
+                <!-- <ul>
                     <li><a href="#">Açai</a></li>
                     <li><a href="#">Camu Camu</a></li>
                     <li><a href="#">Quinoa</a></li>
-                </ul>
+                </ul> -->
             </li>
             <li>
-            <label for="btn-2" class="show">Plantas Medicinales +</label>
+            <label for="btn-2" class="show">Plantas Medicinales</label>
             <a href="#">Plantas Medicinales</a>
             <input type="checkbox" id="btn-2">
-                <ul>
+                <!-- <ul>
                     <li><a href="#">Europa</a></li>
                     <li>
                     <label for="btn-3" class="show show-sub">América +</label>
@@ -51,17 +51,17 @@
                     </li>
                     <li><a href="#">Asia</a></li>
                     <li><a href="#">África</a></li>
-                </ul>
+                </ul> -->
             </li>
             <li>
-            <label for="btn-4" class="show">Extractos +</label>
+            <label for="btn-4" class="show">Extractos</label>
             <a href="#">Extractos</a>
             <input type="checkbox" id="btn-4">
-                <ul>
+                <!-- <ul>
                     <li><a href="#">Vision</a></li>
                     <li><a href="#">Piel</a></li>
                     <li><a href="#">Colesterol</a></li>
-                </ul>
+                </ul> -->
             </li>
             <li><a href="http://vissentia.test/blog/">Blog</a></li>
             <li><a href="http://vissentia.test/contacto/">Contacto</a></li>

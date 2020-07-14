@@ -11,7 +11,7 @@ function vissentia_scripts() {
     wp_register_script('vissentia-script', get_template_directory_uri() . '/assets/js/main.js', ['jquery']. 1, true);
     wp_enqueue_script('vissentia-script');
 
-    wp_enqueue_style('google_web_fonts', 'https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&family=Noto+Sans+HK:wght@400;500;700&family=Nunito+Sans:wght@400;600&display=swap');
+    wp_enqueue_style('google_web_fonts', 'https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&family=Noto+Sans+HK:wght@400;500;700&family=Nunito+Sans:wght@400;600;700;800&display=swap');
 
 }
 
@@ -66,7 +66,7 @@ add_action('widgets_init', 'my_sidebars');
 
 //length
 function my_excerpt_length($length){
-    return 27;
+    return 21;
     }
 
 add_filter('excerpt_length', 'my_excerpt_length');

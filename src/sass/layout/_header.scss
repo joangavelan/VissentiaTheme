@@ -2,15 +2,16 @@
 
     &__logo {
         font-family: $font-primary;
-        color: $color-white;
+        color: $color-primary;
         font-size: 2.7rem;
+        text-shadow: 0 2px 2px rgb(225, 243, 226);
         float: left;
         line-height: 7rem;
         padding-left: 6rem;
     }
 
     &__nav {
-        background-color: #1b1b1b;
+        box-shadow:0px 1px 10px #dddddd;
     }
 
     &__nav::after {
@@ -29,28 +30,26 @@
     &__nav ul li {
         float: left;
         display: inline-block;
-        background-color: #1b1b1b;
         margin: 0 5px;
     }
 
     &__nav ul li a {
         font-family: $font-tertiary;
         font-size: 1.5rem;
-        color: $color-white;
+        color: $color-text;
         text-decoration: none;
         line-height: 70px;
         padding: 8px 15px;
     }
 
-    &__nav ul li a:hover {
-        color: cyan;
-        border-radius: 5px;
-        box-shadow: 0 0 5px #33ffff,
-                    0 0 5px #66ffff,
+    &__nav ul li a:hover,
+    &__nav ul li a:active {
+        color: $color-primary;
     }
+    
 
     &__nav ul ul li a:hover {
-        color: cyan;
+        color: $color-primary;
         box-shadow: none;
     }
 
@@ -147,7 +146,7 @@
         .show {
             font-family: $font-tertiary;
             display: block;
-            color: $color-white;
+            color: $color-text;
             font-size: 1.5rem;
             padding: 0 1.5rem;
             line-height: 7rem;
@@ -159,12 +158,12 @@
         }
 
         .show:hover {
-            color: cyan;
+            color: $color-primary;
         }
 
         .icon {
             display: block;
-            color: $color-white;
+            color: $color-text;
             position: absolute;
             right: 4rem;
             line-height: 7rem;
