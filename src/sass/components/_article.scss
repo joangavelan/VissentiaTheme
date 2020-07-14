@@ -1,6 +1,5 @@
 .article {
     display: flex;
-
     height: 20rem;
 
     &__img {
@@ -18,7 +17,8 @@
     }
 
     &__title {
-        font-family: $font-secondary;
+        font-family: $font-tertiary;
+        font-weight: 700;
         font-size: 2.6rem;
     }
 

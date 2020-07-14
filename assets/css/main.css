@@ -32,6 +32,7 @@ body {
 }
 
 .site-content {
+  display: block;
   max-width: 110rem;
   margin: 0 auto;
 }
@@ -43,13 +44,13 @@ body {
 }
 
 .heading-primary {
-  font-family: "Noto Sans Hk", sans-serif;
-  font-size: 3.2rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 4.8rem;
   color: #231f20;
 }
 
 .heading-secondary {
-  font-family: "Noto Sans Hk", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 500;
   font-size: 2.4rem;
   color: #231f20;
@@ -99,15 +100,16 @@ body {
 
 .header__logo {
   font-family: "Frank Ruhl Libre", serif;
-  color: #fff;
+  color: #4FB477;
   font-size: 2.7rem;
+  text-shadow: 0 2px 2px #e1f3e2;
   float: left;
   line-height: 7rem;
   padding-left: 6rem;
 }
 
 .header__nav {
-  background-color: #1b1b1b;
+  box-shadow: 0px 1px 10px #dddddd;
 }
 
 .header__nav::after {
@@ -126,27 +128,25 @@ body {
 .header__nav ul li {
   float: left;
   display: inline-block;
-  background-color: #1b1b1b;
   margin: 0 5px;
 }
 
 .header__nav ul li a {
   font-family: "Nunito Sans", sans-serif;
   font-size: 1.5rem;
-  color: #fff;
+  color: #231f20;
   text-decoration: none;
   line-height: 70px;
   padding: 8px 15px;
 }
 
-.header__nav ul li a:hover {
-  color: cyan;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+.header__nav ul li a:hover,
+.header__nav ul li a:active {
+  color: #4FB477;
 }
 
 .header__nav ul ul li a:hover {
-  color: cyan;
+  color: #4FB477;
   box-shadow: none;
 }
 
@@ -244,7 +244,7 @@ body {
   .header .show {
     font-family: "Nunito Sans", sans-serif;
     display: block;
-    color: #fff;
+    color: #231f20;
     font-size: 1.5rem;
     padding: 0 1.5rem;
     line-height: 7rem;
@@ -256,12 +256,12 @@ body {
   }
 
   .header .show:hover {
-    color: cyan;
+    color: #4FB477;
   }
 
   .header .icon {
     display: block;
-    color: #fff;
+    color: #231f20;
     position: absolute;
     right: 4rem;
     line-height: 7rem;
@@ -347,6 +347,40 @@ body {
 .feed__sidebar {
   max-width: 30rem;
   margin-left: 5rem;
+}
+
+.post__title {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 4.8rem;
+  line-height: 130%;
+}
+
+@media only screen and (max-width: 48em) {
+  .post__title {
+    font-size: 3.8rem;
+    margin-top: -1.5rem;
+  }
+}
+
+.post__img {
+  display: block;
+  max-width: 100%;
+}
+
+.post h2 {
+  font-size: 3.2rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  margin: 1rem 0;
+  line-height: 1.6em;
+}
+
+.post p {
+  line-height: 1.6em;
+}
+
+.post > p:not(:nth-child(5)) {
+  margin: 2.5rem 0;
 }
 
 .sidebar {
@@ -474,7 +508,8 @@ body {
 }
 
 .article__title {
-  font-family: "Noto Sans Hk", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
   font-size: 2.6rem;
 }
 
@@ -520,7 +555,7 @@ body {
   font-size: 1.5rem;
   text-decoration: none;
   color: #231f20;
-  margin-top: 1.8rem;
+  margin-top: 2.5rem;
 }
 
 .read-more span {
@@ -535,5 +570,22 @@ body {
 
 .read-more:hover {
   color: #4FB477;
+}
+
+.category-meta {
+  font-size: 1.5rem;
+  color: #4FB477;
+  display: inline-block;
+  margin: 1.5rem 0 2rem;
+  padding: 5px 17px;
+  border: 1px solid #4FB477;
+  border-radius: 2rem;
+  text-decoration: none;
+}
+
+.category-meta:hover {
+  color: #fff;
+  background-color: #57ce57;
+  border: 1px solid #57ce57;
 }
 
