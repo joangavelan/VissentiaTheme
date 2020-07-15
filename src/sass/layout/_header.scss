@@ -1,6 +1,7 @@
 .header {
 
     &__logo {
+        width: inline-block;
         font-family: $font-primary;
         color: $color-primary;
         font-size: 2.7rem;
@@ -159,6 +160,11 @@
 
         .show:hover {
             color: $color-primary;
+        } 
+        
+        .icon span {
+            display: block;
+            margin: 0;
         }
 
         .icon {
@@ -166,8 +172,10 @@
             color: $color-text;
             position: absolute;
             right: 4rem;
+            top: 2.9rem;
             line-height: 7rem;
             font-size: 2.5rem;
+            cursor: pointer;
         }
 
         &__nav ul li a:hover {
@@ -178,7 +186,7 @@
             display: none;
         }
 
-        [id^=btn]:checked + ul {
+        [id^=btn]:checked + div > ul {
             display: block;
         }
     }
