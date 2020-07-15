@@ -16,7 +16,7 @@
 <header class="header">
 
     <nav class="header__nav">
-    <div class="header__logo"><a href="">Vissentia</a></div>
+    <div class="header__logo">Vissentia</div>
     <label for="btn" class="icon">
         <span class="fa fa-bars"></span>
     </label>
