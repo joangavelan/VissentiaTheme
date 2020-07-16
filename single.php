@@ -6,7 +6,14 @@
             <article class="post">
                 <h1 class="post__title"><?php the_title(); ?></h1>
 
-                <a href="#" class="category-meta">Superalimentos</a>
+    
+                <?php 
+                    $categories = get_the_category();
+                    foreach($categories as $category) : ?>
+                    <a href="<?= get_category_link($category->term_id);?>" class="category-meta"> <?= $category->name; ?></a>
+        
+                <?php endforeach; ?>
+                
                 
                 <?php if(has_post_thumbnail()) : ?>
             

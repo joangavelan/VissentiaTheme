@@ -1,6 +1,7 @@
 .category-meta {
     font-size: 1.5rem;
-    color: $color-primary;
+    font-weight: normal !important;
+    color: $color-primary !important;
     display: inline-block;
     margin: 1.5rem 0 2rem;
     padding: 5px 17px;
@@ -10,7 +11,7 @@
 }
 
 .category-meta:hover {
-    color: $color-white;
+    color: $color-white !important;
     background-color: rgb(87, 206, 87);
     border: 1px solid rgb(87, 206, 87);
 }

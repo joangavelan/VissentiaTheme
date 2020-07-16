@@ -91,11 +91,11 @@ body {
 
 .sub {
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 2.3rem;
   color: #231f20;
   text-transform: uppercase;
-  padding-bottom: 2rem;
+  padding-bottom: 1.7rem;
 }
 
 .header__logo {
@@ -111,6 +111,7 @@ body {
 
 .header__nav {
   box-shadow: 0px 1px 10px #dddddd;
+  position: relative;
 }
 
 .header__nav::after {
@@ -269,8 +270,9 @@ body {
     display: block;
     color: #231f20;
     position: absolute;
-    right: 4rem;
     top: 2.9rem;
+    -webkit-top: 2.9rem;
+    right: 4rem;
     line-height: 7rem;
     font-size: 2.5rem;
     cursor: pointer;
@@ -295,7 +297,7 @@ body {
   flex-direction: column;
   width: 100%;
   height: 60rem;
-  margin: 3rem auto;
+  margin: 4rem auto;
   padding: 0 2rem;
   background-color: #4FB477;
   background-position: center;
@@ -359,8 +361,8 @@ body {
 
 .post__title {
   font-family: "Nunito Sans", sans-serif;
-  font-size: 4.8rem;
-  line-height: 130%;
+  font-size: 4.5rem;
+  line-height: 120%;
 }
 
 @media only screen and (max-width: 48em) {
@@ -375,12 +377,23 @@ body {
   max-width: 100%;
 }
 
-.post h2 {
+.post h2,
+.post h3,
+.post h4 {
   font-size: 3.2rem;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
-  margin: 1rem 0;
   line-height: 1.6em;
+  margin-top: 2.5rem;
+  margin-bottom: -1rem;
+}
+
+.post h3 {
+  font-size: 2.7rem;
+}
+
+.post h4 {
+  font-size: 2.3rem;
 }
 
 .post p {
@@ -389,6 +402,20 @@ body {
 
 .post > p:not(:nth-child(5)) {
   margin: 2.5rem 0;
+}
+
+.post li {
+  margin: 2.5rem 0;
+}
+
+.post a {
+  text-decoration: none;
+  color: #4FB477;
+  font-weight: 600;
+}
+
+.post a:hover {
+  color: #57ce57;
 }
 
 .sidebar {
@@ -502,8 +529,11 @@ body {
 }
 
 .article__img {
+  display: block;
   width: 30rem;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .article__img:hover {
@@ -563,7 +593,7 @@ body {
   font-size: 1.5rem;
   text-decoration: none;
   color: #231f20;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
 }
 
 .read-more span {
@@ -582,7 +612,8 @@ body {
 
 .category-meta {
   font-size: 1.5rem;
-  color: #4FB477;
+  font-weight: normal !important;
+  color: #4FB477 !important;
   display: inline-block;
   margin: 1.5rem 0 2rem;
   padding: 5px 17px;
@@ -592,7 +623,7 @@ body {
 }
 
 .category-meta:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #57ce57;
   border: 1px solid #57ce57;
 }

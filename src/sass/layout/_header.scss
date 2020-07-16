@@ -13,6 +13,7 @@
 
     &__nav {
         box-shadow:0px 1px 10px #dddddd;
+        position: relative;
     }
 
     &__nav::after {
@@ -171,8 +172,9 @@
             display: block;
             color: $color-text;
             position: absolute;
-            right: 4rem;
             top: 2.9rem;
+            -webkit-top: 2.9rem;
+            right: 4rem;
             line-height: 7rem;
             font-size: 2.5rem;
             cursor: pointer;
