@@ -567,7 +567,7 @@ body {
   margin: 3rem 0;
 }
 
-@media only screen and (max-width: 42.5em) {
+@media only screen and (max-width: 45em) {
   .article {
     flex-direction: column;
     height: 100%;
