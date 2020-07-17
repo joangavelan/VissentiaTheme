@@ -99,14 +99,17 @@ body {
 }
 
 .header__logo {
-  width: inline-block;
-  font-family: "Frank Ruhl Libre", serif;
-  color: #4FB477;
-  font-size: 2.7rem;
-  text-shadow: 0 2px 2px #e1f3e2;
   float: left;
   line-height: 7rem;
   padding-left: 6rem;
+}
+
+.header__logo--text {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 2.7rem;
+  color: #4FB477;
+  text-shadow: 0 2px 2px #e1f3e2;
+  text-decoration: none;
 }
 
 .header__nav {
