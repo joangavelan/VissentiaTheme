@@ -383,16 +383,18 @@ body {
 .post h2,
 .post h3,
 .post h4 {
-  font-size: 3.2rem;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
-  line-height: 1.6em;
+  line-height: 1.2em;
   margin-top: 2.5rem;
-  margin-bottom: -1rem;
+}
+
+.post h2 {
+  font-size: 3.4rem;
 }
 
 .post h3 {
-  font-size: 2.7rem;
+  font-size: 2.6rem;
 }
 
 .post h4 {
@@ -415,6 +417,8 @@ body {
 
 .post li {
   margin: 2.5rem 0;
+  line-height: 1.6em;
+  margin-left: 3.5rem;
 }
 
 .post > figure > img {
