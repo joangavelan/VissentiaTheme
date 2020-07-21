@@ -403,12 +403,22 @@ body {
   line-height: 1.6em;
 }
 
+@media only screen and (max-width: 48em) {
+  .post p {
+    font-size: 1.85rem;
+  }
+}
+
 .post > p:not(:nth-child(5)) {
   margin: 2.5rem 0;
 }
 
 .post li {
   margin: 2.5rem 0;
+}
+
+.post > figure > img {
+  margin-top: 2.5rem;
 }
 
 .post a {
