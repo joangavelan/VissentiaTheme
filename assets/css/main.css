@@ -369,13 +369,6 @@ body {
   line-height: 120%;
 }
 
-@media only screen and (max-width: 48em) {
-  .post__title {
-    font-size: 3.8rem;
-    margin-top: -1.5rem;
-  }
-}
-
 .post__img {
   display: block;
   max-width: 100%;
@@ -406,12 +399,6 @@ body {
   line-height: 1.6em;
 }
 
-@media only screen and (max-width: 48em) {
-  .post p {
-    font-size: 1.85rem;
-  }
-}
-
 .post > p:not(:nth-child(5)) {
   margin: 2.5rem 0;
 }
@@ -434,6 +421,18 @@ body {
 
 .post a:hover {
   color: #57ce57;
+}
+
+@media only screen and (max-width: 48em) {
+  .post__title {
+    font-size: 3.8rem;
+    margin-top: -1.5rem;
+  }
+
+  .post p,
+  .post li {
+    font-size: 1.85rem;
+  }
 }
 
 .sidebar {

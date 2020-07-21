@@ -4,11 +4,6 @@
         font-family: $font-tertiary;
         font-size: 4.5rem;
         line-height: 120%;
-
-        @media only screen and (max-width: 48em) {
-            font-size: 3.8rem;
-            margin-top: -1.5rem;
-        }
     }
 
     &__img {
@@ -39,10 +34,6 @@
 
     & p {
         line-height: 1.6em;
-
-        @media only screen and (max-width: 48em) {
-            font-size: 1.85rem;
-        }
     }
 
     & > p:not(:nth-child(5)) {
@@ -67,5 +58,18 @@
 
     & a:hover {
         color: rgb(87, 206, 87);
+    }
+
+    @media only screen and (max-width: 48em) {
+
+        &__title {
+        font-size: 3.8rem;
+        margin-top: -1.5rem;
+        }
+
+        & p,
+        & li {
+            font-size: 1.85rem;
+        }
     }
 }
