@@ -389,6 +389,7 @@ body {
 
 .post h3 {
   font-size: 2.6rem;
+  margin-bottom: -1rem;
 }
 
 .post h4 {
