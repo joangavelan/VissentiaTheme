@@ -1,14 +1,14 @@
 .feed {
     display: flex;
 
-    @media only screen and (max-width: 62.5em) {
+    @media only screen and (max-width: 68.8em) {
         flex-direction: column;
     }
 
     &__main {
         max-width: 75rem;
 
-        @media only screen and (max-width: 62.5em) {
+        @media only screen and (max-width: 68.8em) {
             max-width: 100%;
         }
     }

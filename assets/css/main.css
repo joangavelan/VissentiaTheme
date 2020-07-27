@@ -342,7 +342,7 @@ body {
   display: flex;
 }
 
-@media only screen and (max-width: 62.5em) {
+@media only screen and (max-width: 68.8em) {
   .feed {
     flex-direction: column;
   }
@@ -352,7 +352,7 @@ body {
   max-width: 75rem;
 }
 
-@media only screen and (max-width: 62.5em) {
+@media only screen and (max-width: 68.8em) {
   .feed__main {
     max-width: 100%;
   }
