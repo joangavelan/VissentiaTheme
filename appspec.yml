@@ -2,4 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /apps/wordpress/htdocs/wp-content/themes/Vissentia
+    destination: /apps/wordpress/htdocs/wp-content/themes/VissentiaTheme
