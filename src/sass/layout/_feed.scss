@@ -1,12 +1,13 @@
 .feed {
     display: flex;
+    justify-content: space-between;
 
     @media only screen and (max-width: 68.8em) {
         flex-direction: column;
     }
 
     &__main {
-        max-width: 75rem;
+        max-width: 100%;
 
         @media only screen and (max-width: 68.8em) {
             max-width: 100%;

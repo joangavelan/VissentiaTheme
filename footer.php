@@ -1,9 +1,9 @@
 <?php wp_footer(); ?>
 
 
-    <div class="mg-bg"></div>
+    
     </main>
-
+    <div class="mg-hg"></div>
     <footer class="footer">
         <div class="footer__logo-box">
             <h2 class="footer__title">Vitae<span>Essentia</span></h2>

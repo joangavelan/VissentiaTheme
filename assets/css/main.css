@@ -33,7 +33,7 @@ body {
 
 .site-content {
   display: block;
-  max-width: 110rem;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
@@ -364,6 +364,7 @@ body {
 
 .feed {
   display: flex;
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 68.8em) {
@@ -373,7 +374,7 @@ body {
 }
 
 .feed__main {
-  max-width: 75rem;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 68.8em) {
@@ -604,7 +605,7 @@ body {
   text-decoration: none;
 }
 
-.article__description {
+.article p {
   margin-top: 1.5rem;
 }
 

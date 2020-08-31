@@ -38,7 +38,7 @@
 </header>
 <!---->
 
-<div class="mg-md"></div>
+<div class="mg-hg"></div>
 
 <main class="site-content">
 
