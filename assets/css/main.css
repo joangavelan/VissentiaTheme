@@ -366,7 +366,7 @@ body {
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 68.8em) {
+@media only screen and (max-width: 77.5em) {
   .feed {
     flex-direction: column;
   }
@@ -376,7 +376,7 @@ body {
   max-width: 100%;
 }
 
-@media only screen and (max-width: 68.8em) {
+@media only screen and (max-width: 77.5em) {
   .feed__main {
     max-width: 100%;
   }
