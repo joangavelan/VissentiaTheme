@@ -15,3 +15,10 @@
     background-color: rgb(87, 206, 87);
     border: 1px solid rgb(87, 206, 87);
 }
+
+
+@media only screen and (max-width: 48em) {
+    .category-meta {
+        font-size: 1.7rem;
+    }
+}
