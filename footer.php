@@ -1,7 +1,8 @@
 <?php wp_footer(); ?>
 
-    </main>
+
     <div class="mg-bg"></div>
+    </main>
 
     <footer class="footer">
         <div class="footer__logo-box">

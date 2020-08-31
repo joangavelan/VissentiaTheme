@@ -1,0 +1,23 @@
+.about {
+    display: flex;
+    margin: 5rem 0;
+    flex-direction: column;
+    align-items: center;
+
+    &__desc {
+        max-width: 70rem;
+    }
+
+    & p {
+        line-height: 200%;
+    }
+
+}
+
+.site-name-vs {
+    display: block;
+    font-family: $font-primary;
+    font-weight: 400;
+    font-size: 5.7rem;
+    color: $color-primary;
+}

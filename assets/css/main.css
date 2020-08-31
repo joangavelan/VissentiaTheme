@@ -61,6 +61,7 @@ body {
   font-size: 1.7rem;
   color: #231f20;
   line-height: 150%;
+  margin: 2.5rem 0;
 }
 
 .mg-tn {
@@ -96,6 +97,29 @@ body {
   color: #231f20;
   text-transform: uppercase;
   padding-bottom: 1.7rem;
+}
+
+.about {
+  display: flex;
+  margin: 5rem 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__desc {
+  max-width: 70rem;
+}
+
+.about p {
+  line-height: 200%;
+}
+
+.site-name-vs {
+  display: block;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 400;
+  font-size: 5.7rem;
+  color: #4FB477;
 }
 
 .header__logo {
