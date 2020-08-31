@@ -37,7 +37,7 @@ body {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 68.75em) {
+@media only screen and (max-width: 77.5em) {
   .site-content {
     padding: 0 2rem;
   }
@@ -482,7 +482,7 @@ body {
   background-color: #97A092;
 }
 
-@media only screen and (max-width: 62.5em) {
+@media only screen and (max-width: 68.75em) {
   .sidebar {
     display: none;
   }
