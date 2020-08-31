@@ -101,7 +101,6 @@ body {
 
 .about {
   display: flex;
-  margin: 5rem 0;
   flex-direction: column;
   align-items: center;
 }
