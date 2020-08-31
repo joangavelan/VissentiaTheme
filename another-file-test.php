@@ -1,1 +1,0 @@
-<?php echo "this is another file text" ?>
