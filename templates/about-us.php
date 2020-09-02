@@ -7,7 +7,7 @@ Template name: Nosotros
 <?php get_header(); ?>
 
 <div class="about">
-    <div class="mg-md"></div>
+    <div class="mg-sm"></div>
     <h1 class="site-name-vs">Vissentia</h1>
     
     <div class="about__desc">
