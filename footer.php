@@ -22,7 +22,7 @@
         </div> -->
         <div class="footer__rights">
         <a href="https://vissentia.com/terminos-y-condiciones/" class="footer__right">Términos y Condiciones</a>
-          |   g
+          |   
         <a href="https://vissentia.com/politica-de-privacidad/" class="footer__right">Política de Privacidad</a>
           |   
         <span class="footer__copyright">2020 © Vissentia</span></div>

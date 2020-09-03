@@ -31,6 +31,12 @@ body {
   font-size: 1.7rem;
 }
 
+li {
+  margin: 2.5rem 0;
+  line-height: 1.6em;
+  margin-left: 3.5rem;
+}
+
 p {
   line-height: 1.6em;
   margin: 2.5rem 0;
@@ -460,12 +466,6 @@ p {
 
 .post > p:not(:nth-child(5)) {
   margin: 2.5rem 0;
-}
-
-.post li {
-  margin: 2.5rem 0;
-  line-height: 1.6em;
-  margin-left: 3.5rem;
 }
 
 .post > figure > img {
