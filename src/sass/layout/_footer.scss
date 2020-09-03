@@ -58,7 +58,7 @@
         color: $color-text;
     }
 
-    &__privacy {
+    &__right {
         font-family: 'Nunito Sans';
         font-size: 1.6rem;
         color: $color-text;
@@ -76,7 +76,7 @@
 
     @media only screen and (max-width: 25em) {
         &__copyright,
-        &__privacy {
+        &__right {
             font-size: 1.5rem;
         }
     }

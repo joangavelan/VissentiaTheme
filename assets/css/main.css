@@ -31,6 +31,11 @@ body {
   font-size: 1.7rem;
 }
 
+p {
+  line-height: 1.6em;
+  margin: 2.5rem;
+}
+
 .site-content {
   display: block;
   max-width: 120rem;
@@ -125,6 +130,29 @@ body {
   font-weight: 400;
   font-size: 5.7rem;
   color: #4FB477;
+}
+
+.contact {
+  min-height: calc(100vh - 30rem);
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.contact__heading {
+  max-width: 50rem;
+  text-align: center;
+}
+
+.contact__heading span {
+  font-size: 1.5rem;
+  color: #4FB477;
+}
+
+.contact__heading h1 {
+  font-size: 4.5rem;
+  color: #231f20;
+  margin: 4px 0 7px;
 }
 
 .header__logo {
@@ -568,7 +596,7 @@ body {
   color: #231f20;
 }
 
-.footer__privacy {
+.footer__right {
   font-family: "Nunito Sans";
   font-size: 1.6rem;
   color: #231f20;
@@ -576,7 +604,7 @@ body {
   margin-right: 5px;
 }
 
-.footer__privacy:hover {
+.footer__right:hover {
   text-decoration: underline;
 }
 
@@ -586,7 +614,7 @@ body {
 
 @media only screen and (max-width: 25em) {
   .footer__copyright,
-  .footer__privacy {
+  .footer__right {
     font-size: 1.5rem;
   }
 }

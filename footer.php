@@ -20,7 +20,12 @@
             </ul>
             </nav>
         </div> -->
-        <div class="footer__rights"><a href="#" class="footer__privacy">Privacy Policy</a>  |   <span class="footer__copyright">2020 © Vissentia</span></div>
+        <div class="footer__rights">
+        <a href="https://vissentia.com/terminos-y-condiciones/" class="footer__right">Términos y Condiciones</a>
+          |   
+        <a href="https://vissentia.com/politica-de-privacidad/" class="footer__right">Política de Privacidad</a>
+          |   
+        <span class="footer__copyright">2020 © Vissentia</span></div>
     </footer>
 
 </script>
