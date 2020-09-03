@@ -1,65 +1,96 @@
 // GENERAL
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-    box-sizing: border-box;
-    font-size: 62.5%;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 @media only screen and (max-width: 68.75em) {
-    html {
-      font-size: 56.5%; }
-    }
+  html {
+    font-size: 56.5%;
+  }
+}
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: $font-secondary;
+  font-family: $font-tertiary;
 }
 
 body {
-    font-family: $font-tertiary;
-    font-size: 1.7rem;
+  font-family: $font-tertiary;
+  font-size: 1.7rem;
+}
+
+h2,h3,h4 {
+  font-weight: 700;
+  line-height: 1.2em;
+  margin-top: 2.5rem;
+}
+
+h2 {
+  font-size: 3.4rem;
+}
+
+h3 {
+  font-size: 2.6rem;
+  margin-bottom: -1rem;
+}
+
+h4 {
+  font-size: 2.3rem;
 }
 
 li {
-    margin: 2.5rem 0;
-    line-height: 1.6em;
-    margin-left: 3.5rem;
+  margin: 2.5rem 0;
+  line-height: 1.6em;
+  margin-left: 3.5rem;
 }
 
 p {
-    line-height: 1.6em;
-    margin: 2.5rem 0;
+  line-height: 1.6em;
+  margin: 2.5rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: $color-primary;
+    font-weight: 600;
+}
+
+a:hover {
+    color: rgb(87, 206, 87);
 }
 
 .site-content {
-    display: block;
-    max-width: 120rem;
-    margin: 0 auto;
+  display: block;
+  max-width: 120rem;
+  margin: 0 auto;
 
-    @media only screen and (max-width: 77.5em) {
-        padding: 0 2rem;
-    }
+  @media only screen and (max-width: 77.5em) {
+    padding: 0 2rem;
+  }
 }
 
-
 @media only screen and (max-width: 48em) {
-    p,
-    li {
-        font-size: 2rem;
-    }
+  p,
+  li {
+    font-size: 2rem;
+  }
 
-    h2 {
-        font-size: 3rem;
-    }
+  h2 {
+    font-size: 3rem;
+  }
 
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-size: 2.8rem;
-    }
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 2.8rem;
+  }
 }
