@@ -24,7 +24,7 @@
         
                 <?php the_excerpt();?>
 
-                <a href="<?php the_permalink();?>" class="read-more">Leer más<span>&#8594;</span></a>
+                <!-- <a href="<?//php the_permalink();?>" class="read-more">Leer más<span>&#8594;</span></a> -->
             </div>
 
         </div>
