@@ -74,7 +74,7 @@ a:hover {
 
 .site-content {
   display: block;
-  max-width: 120rem;
+  max-width: 110rem;
   margin: 0 auto;
 }
 
@@ -494,6 +494,10 @@ a:hover {
   margin: 1rem 0;
 }
 
+.post a {
+  font-weight: 600;
+}
+
 .post__img {
   display: block;
   max-width: 100%;
@@ -642,10 +646,6 @@ a:hover {
   font-weight: 700;
   font-size: 2.6rem;
   line-height: 130%;
-}
-
-.article a {
-  font-weight: 600;
 }
 
 .article p {
