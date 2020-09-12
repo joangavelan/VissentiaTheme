@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vissentia</title>
     <script src="https://kit.fontawesome.com/542ea1a396.js" crossorigin="anonymous"></script>
-    
+    <script data-ad-client="ca-pub-7997794586711401" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <?php wp_head(); ?>
 
 </head>
