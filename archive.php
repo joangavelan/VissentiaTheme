@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
     <h1><?=single_cat_title();?></h1>
+    <p><?php the_archive_description();?></p>
     <div class="mg-bg"></div>
 
     <section class="feed">
