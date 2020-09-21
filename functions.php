@@ -10,6 +10,8 @@ function vissentia_scripts() {
     wp_enqueue_script('vissentia-script');
 
     wp_enqueue_style('google_web_fonts', 'https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&family=Noto+Sans+HK:wght@400;500;700&family=Nunito+Sans:wght@400;600;700;800&display=swap');
+    
+    wp_enqueue_style('google_web_fonts', 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 }
 
