@@ -65,7 +65,7 @@ p {
 a {
   text-decoration: none;
   color: #4FB477;
-  display: inline-block;
+  word-wrap: break-word;
 }
 
 a:hover {

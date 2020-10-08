@@ -59,7 +59,7 @@ p {
 a {
     text-decoration: none;
     color: $color-primary;
-    display: inline-block;
+    word-wrap: break-word;
 }
 
 a:hover {
