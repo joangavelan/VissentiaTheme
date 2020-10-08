@@ -65,6 +65,7 @@ p {
 a {
   text-decoration: none;
   color: #4FB477;
+  display: inline-block;
 }
 
 a:hover {
@@ -627,8 +628,7 @@ a:hover {
 }
 
 .article__img:hover {
-  -webkit-filter: brightness(106%);
-          filter: brightness(106%);
+  filter: brightness(106%);
 }
 
 .article__content {
