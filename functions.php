@@ -13,6 +13,8 @@ function vissentia_scripts() {
     
     wp_enqueue_style('google_web_fonts', 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
+    wp_enqueue_style('google_web_fonts', 'https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
 }
 
 
