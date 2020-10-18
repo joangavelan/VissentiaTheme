@@ -1,198 +1,55 @@
 .header {
 
-    &__logo {
-        float: left;
-        line-height: 7rem;
-        padding-left: 6rem;
+    .container {
+        width: 128rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
 
-        &--text {
+    & .logo__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem 0 2.5rem;
+
+        & h1 {
+            display: inline-block;
+            font-size: 4rem;
+            justify-self: center;
             font-family: $font-primary;
-            font-size: 2.7rem;
-            color: $color-primary;
-            text-shadow: 0 2px 2px rgb(225, 243, 226);
-            text-decoration: none;
+            color: $color-text;
+            font-weight: 400;
         }
+
+        & i {
+            font-size: 2rem;
+        }
+
+        
     }
 
-    &__nav {
-        box-shadow:0px 1px 10px #dddddd;
-        position: relative;
-    }
-
-    &__nav::after {
-        content: '';
-        clear: both;
-        display: table;
-    }
-
-    &__nav ul {
-        float: right;
+    & .menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        border-top: 1px solid #E5E5E5;
+        border-bottom: 1px solid #E5E5E5;
         list-style: none;
-        margin-right: 40px;
-        position: relative;
-    }
+        padding: 2rem 5rem;
 
-    &__nav ul li {
-        float: left;
-        margin: 0 5px;
-    }
-
-    &__nav ul li a {
-        font-family: $font-tertiary;
-        font-size: 1.5rem;
-        color: $color-text;
-        text-decoration: none;
-        line-height: 70px;
-        padding: 8px 15px;
-    }
-
-    &__nav ul li a:hover,
-    &__nav ul li a:active {
-        color: $color-primary;
-    }
-    
-
-    &__nav ul ul li a:hover {
-        color: $color-primary;
-        box-shadow: none;
-    }
-
-    &__nav ul ul {
-        position: absolute;
-        top: 7rem;
-        border-top: 3px solid cyan;
-        opacity: 0;
-        visibility: hidden;
-        transition: top .3s;
-    }
-
-    &__nav ul ul ul {
-        border-top: none;
-    }
-    
-    &__nav ul li:hover > ul {
-        opacity: 1;
-        visibility: visible;
-    }
-
-    &__nav ul ul li {
-        position: relative;
-        margin: 0px;
-        width: 15rem;
-        float: none;
-        display: list-item;
-        border-bottom: 1px solid rgba(0,0,0,.3);
-    }
-
-    &__nav ul ul li a {
-        line-height: 5rem;
-    }
-
-    &__nav ul ul ul li {
-        position: relative;
-        top: -7rem;
-        left: 15rem;
-    }
-
-    &__nav span {
-        margin-left: 4rem;
-        font-size: 1.5rem;
-    }
-
-    & .show, .icon, input {
-        display: none;
-    }
-
-    @media all and (max-width: 968px) {
-        
-        &__nav ul {
-            margin-right: 0px;
-            float: left;
-        }
-
-        &__logo {
-            padding-left: 30px;
-            width: 100%;
-        }
-
-        &__nav ul li,
-        &__nav ul ul li {
-            display: block;
-            width: 100%;
-        }
-
-        &__nav ul ul {
-            top: 7rem;
-            position: static;
-            border-top: none;
-            float: none;
-            display: none;
-            opacity: 1;
-            visibility: visible;
-        }
-
-        &__nav ul ul ul li {
-            position: static;
-        }
-
-        &__nav ul ul li {
-            border-bottom: 0px;
-        }
-
-        &__nav ul ul a {
-            padding-left: 4rem;
-        }
-
-        &__nav ul ul ul a {
-            padding-left: 8rem;
-        }
-
-        .show {
-            font-family: $font-tertiary;
-            display: block;
-            color: $color-text;
-            font-size: 1.5rem;
-            padding: 0 1.5rem;
-            line-height: 7rem;
-            cursor: pointer;
-        }
-
-        .show-sub {
-            padding-left: 4rem;
-        }
-
-        .show:hover {
-            color: $color-primary;
-        } 
-        
-        .icon span {
-            display: block;
+        & li {
             margin: 0;
-            font-size: 1.7rem;
         }
 
-        .icon {
-            display: block;
+        & a {
+            font-family: $font-primary;
+            font-size: 1.5rem;
             color: $color-text;
-            position: absolute;
-            top: 2.8rem;
-            -webkit-top: 2.8rem;
-            right: 4rem;
-            line-height: 7rem;
-            font-size: 2.5rem;
-            cursor: pointer;
-        }
-
-        &__nav ul li a:hover {
-            box-shadow: none;
-        }
-
-        .show + a, ul {
-            display: none;
-        }
-
-        [id^=btn]:checked + div > ul {
-            display: block;
+            line-height: 2.2rem;
         }
     }
+
 }
+

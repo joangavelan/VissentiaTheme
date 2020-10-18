@@ -11,32 +11,30 @@
 </head>
 <body>
 
+    <header class="header">
+        <div class="container">
+            <div class="logo__container">
+                <i class="fas fa-envelope-open-text suscribe-icon"></i>
+                <h1>Vissentia</span></h1>
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                </div>
 
-<!--HEADER-->
-<header class="header">
+            </div>
+            <nav>
+                <?php
 
-    <nav class="header__nav">
-    <div class="header__logo"><a href="https://www.vissentia.com/" class="header__logo--text">Vissentia</a></div>
-    <label for="btn" class="icon">
-        <span class="fa fa-bars"></span>
-    </label>
-    <input type="checkbox" id="btn">
- 
-    
-    <?php
-        wp_nav_menu (
-    
-            array(
-                'theme_location' => 'top-menu',
-            )
-    
-        );
-        ?>
+                wp_nav_menu 
+                (
+                    array(
+                        'theme_location' => 'top-menu',
+                    )
+                );
+                ?>
+            </nav>
+        </div>
+    </header>
 
-    </nav>
-
-</header>
-<!---->
 
 <div class="mg-md"></div>
 

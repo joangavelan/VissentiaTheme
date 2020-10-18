@@ -23,11 +23,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.7rem;
 }
 
@@ -74,7 +74,7 @@ a:hover {
 
 .site-content {
   display: block;
-  max-width: 110rem;
+  max-width: 128rem;
   margin: 0 auto;
 }
 
@@ -103,22 +103,22 @@ a:hover {
 }
 
 .heading-primary {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 4.8rem;
-  color: #231f20;
+  color: #222;
 }
 
 .heading-secondary {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 2.4rem;
-  color: #231f20;
+  color: #222;
 }
 
 .paragraph {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.7rem;
-  color: #231f20;
+  color: #222;
   line-height: 150%;
   margin: 2.5rem 0;
 }
@@ -150,10 +150,10 @@ a:hover {
 }
 
 .sub {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 2.3rem;
-  color: #231f20;
+  color: #222;
   text-transform: uppercase;
   padding-bottom: 1.7rem;
 }
@@ -180,7 +180,7 @@ a:hover {
 
 .site-name-vs {
   display: block;
-  font-family: "Frank Ruhl Libre", serif;
+  font-family: "Domine", serif;
   font-weight: 400;
   font-size: 5.7rem;
   color: #4FB477;
@@ -205,205 +205,57 @@ a:hover {
 
 .contact__heading h1 {
   font-size: 4.5rem;
-  color: #231f20;
+  color: #222;
   margin: 4px 0 7px;
 }
 
-.header__logo {
-  float: left;
-  line-height: 7rem;
-  padding-left: 6rem;
+.header .container {
+  width: 128rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.header__logo--text {
-  font-family: "Frank Ruhl Libre", serif;
-  font-size: 2.7rem;
-  color: #4FB477;
-  text-shadow: 0 2px 2px #e1f3e2;
-  text-decoration: none;
+.header .logo__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 0 2.5rem;
 }
 
-.header__nav {
-  box-shadow: 0px 1px 10px #dddddd;
-  position: relative;
+.header .logo__container h1 {
+  display: inline-block;
+  font-size: 4rem;
+  justify-self: center;
+  font-family: "Domine", serif;
+  color: #222;
+  font-weight: 400;
 }
 
-.header__nav::after {
-  content: "";
-  clear: both;
-  display: table;
+.header .logo__container i {
+  font-size: 2rem;
 }
 
-.header__nav ul {
-  float: right;
+.header .menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
   list-style: none;
-  margin-right: 40px;
-  position: relative;
+  padding: 2rem 5rem;
 }
 
-.header__nav ul li {
-  float: left;
-  margin: 0 5px;
+.header .menu li {
+  margin: 0;
 }
 
-.header__nav ul li a {
-  font-family: "Inter", sans-serif;
+.header .menu a {
+  font-family: "Domine", serif;
   font-size: 1.5rem;
-  color: #231f20;
-  text-decoration: none;
-  line-height: 70px;
-  padding: 8px 15px;
-}
-
-.header__nav ul li a:hover,
-.header__nav ul li a:active {
-  color: #4FB477;
-}
-
-.header__nav ul ul li a:hover {
-  color: #4FB477;
-  box-shadow: none;
-}
-
-.header__nav ul ul {
-  position: absolute;
-  top: 7rem;
-  border-top: 3px solid cyan;
-  opacity: 0;
-  visibility: hidden;
-  transition: top 0.3s;
-}
-
-.header__nav ul ul ul {
-  border-top: none;
-}
-
-.header__nav ul li:hover > ul {
-  opacity: 1;
-  visibility: visible;
-}
-
-.header__nav ul ul li {
-  position: relative;
-  margin: 0px;
-  width: 15rem;
-  float: none;
-  display: list-item;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-.header__nav ul ul li a {
-  line-height: 5rem;
-}
-
-.header__nav ul ul ul li {
-  position: relative;
-  top: -7rem;
-  left: 15rem;
-}
-
-.header__nav span {
-  margin-left: 4rem;
-  font-size: 1.5rem;
-}
-
-.header .show,
-.header .icon,
-.header input {
-  display: none;
-}
-
-@media all and (max-width: 968px) {
-  .header__nav ul {
-    margin-right: 0px;
-    float: left;
-  }
-
-  .header__logo {
-    padding-left: 30px;
-    width: 100%;
-  }
-
-  .header__nav ul li,
-  .header__nav ul ul li {
-    display: block;
-    width: 100%;
-  }
-
-  .header__nav ul ul {
-    top: 7rem;
-    position: static;
-    border-top: none;
-    float: none;
-    display: none;
-    opacity: 1;
-    visibility: visible;
-  }
-
-  .header__nav ul ul ul li {
-    position: static;
-  }
-
-  .header__nav ul ul li {
-    border-bottom: 0px;
-  }
-
-  .header__nav ul ul a {
-    padding-left: 4rem;
-  }
-
-  .header__nav ul ul ul a {
-    padding-left: 8rem;
-  }
-
-  .header .show {
-    font-family: "Inter", sans-serif;
-    display: block;
-    color: #231f20;
-    font-size: 1.5rem;
-    padding: 0 1.5rem;
-    line-height: 7rem;
-    cursor: pointer;
-  }
-
-  .header .show-sub {
-    padding-left: 4rem;
-  }
-
-  .header .show:hover {
-    color: #4FB477;
-  }
-
-  .header .icon span {
-    display: block;
-    margin: 0;
-    font-size: 1.7rem;
-  }
-
-  .header .icon {
-    display: block;
-    color: #231f20;
-    position: absolute;
-    top: 2.8rem;
-    -webkit-top: 2.8rem;
-    right: 4rem;
-    line-height: 7rem;
-    font-size: 2.5rem;
-    cursor: pointer;
-  }
-
-  .header__nav ul li a:hover {
-    box-shadow: none;
-  }
-
-  .header .show + a,
-  .header ul {
-    display: none;
-  }
-
-  .header [id^=btn]:checked + div > ul {
-    display: block;
-  }
+  color: #222;
+  line-height: 2.2rem;
 }
 
 .hero {
@@ -422,7 +274,7 @@ a:hover {
 }
 
 .hero__slogan {
-  font-family: "Frank Ruhl Libre", serif;
+  font-family: "Domine", serif;
   font-size: 6.5rem;
   font-weight: 400;
   color: #fff;
@@ -435,7 +287,7 @@ a:hover {
 }
 
 .hero__description {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2.3rem;
   color: #fff;
   font-weight: 400;
@@ -475,7 +327,7 @@ a:hover {
 }
 
 .post__title {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 4.5rem;
   line-height: 120%;
 }
@@ -546,7 +398,7 @@ a:hover {
 
 .footer__title {
   font-size: 3.7rem;
-  font-family: "Frank Ruhl Libre", serif;
+  font-family: "Domine", serif;
   font-weight: 500;
   color: #4FB477;
 }
@@ -571,7 +423,7 @@ a:hover {
 }
 
 .footer__link {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.45rem;
   font-weight: 500;
   color: #444444;
@@ -588,13 +440,13 @@ a:hover {
   display: block;
   font-family: "Nunito Sans";
   font-size: 1.6rem;
-  color: #231f20;
+  color: #222;
 }
 
 .footer__right {
   font-family: "Nunito Sans";
   font-size: 1.6rem;
-  color: #231f20;
+  color: #222;
   text-decoration: none;
   margin-right: 5px;
 }
@@ -636,7 +488,7 @@ a:hover {
 }
 
 .article__title {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 2.2rem;
   line-height: 140%;
@@ -676,10 +528,10 @@ a:hover {
 
 .read-more {
   display: inline-block;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   text-decoration: none;
-  color: #231f20;
+  color: #222;
   margin-top: 1.5rem;
 }
 
