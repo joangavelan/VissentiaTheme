@@ -1,0 +1,40 @@
+.entry {
+
+    &-image {
+        margin-bottom: 3rem;
+
+        & img {
+            display: block;
+            width: 100%;
+            border-radius: 3px;
+        }
+    }
+
+    &-category {
+        display: block;
+        color: #333;
+        font-size: 11px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 1.4rem 0;
+    }
+
+    &-title {
+        margin: 0;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+
+    &-date {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #999;
+        margin-top: 8px;
+    }
+
+    &-description {
+        font-size: 1.5rem;
+        color: #555;
+    }
+}

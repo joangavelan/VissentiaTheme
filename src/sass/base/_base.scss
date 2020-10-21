@@ -19,17 +19,12 @@ html {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: $font-tertiary;
+  font-family: $font-primary;
 }
 
 body {
-  font-family: $font-tertiary;
+  font-family: $font-secondary;
   font-size: 1.7rem;
-}
-
-h2,h3,h4 {
-  line-height: 1.2em;
-  margin-top: 2.5rem;
 }
 
 h2 {
@@ -58,17 +53,17 @@ p {
 
 a {
     text-decoration: none;
-    color: $color-primary;
+    color: $color-text;
     word-break: break-word;
 }
 
 a:hover {
-    color: rgb(87, 206, 87);
+    color: $color-primary-dark;
 }
 
 .site-content {
   display: block;
-  max-width: 128rem;  
+  max-width: 130rem;  
   margin: 0 auto;
 
   @media only screen and (max-width: 77.5em) {

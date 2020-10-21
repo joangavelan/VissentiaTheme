@@ -1,3 +1,27 @@
+.mg-tn {
+  margin: 1rem 0;
+}
+
+.mg-sm {
+  margin: 2rem 0;
+}
+
+.mg-md {
+  margin: 3rem 0;
+}
+
+.mg-bg {
+  margin: 5rem 0;
+}
+
+.mg-hg {
+  margin: 7rem 0;
+}
+
+.title-xs {
+  font-size: 1.84rem;
+}
+
 *,
 *::before,
 *::after {
@@ -23,19 +47,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Domine", serif;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1.7rem;
-}
-
-h2,
-h3,
-h4 {
-  line-height: 1.2em;
-  margin-top: 2.5rem;
 }
 
 h2 {
@@ -64,17 +81,17 @@ p {
 
 a {
   text-decoration: none;
-  color: #4FB477;
+  color: #222;
   word-break: break-word;
 }
 
 a:hover {
-  color: #57ce57;
+  color: #1b8553;
 }
 
 .site-content {
   display: block;
-  max-width: 128rem;
+  max-width: 130rem;
   margin: 0 auto;
 }
 
@@ -123,45 +140,12 @@ a:hover {
   margin: 2.5rem 0;
 }
 
-.mg-tn {
-  margin: 1rem 0;
-}
-
-.mg-sm {
-  margin: 2rem 0;
-}
-
-.mg-md {
-  margin: 3rem 0;
-}
-
-.mg-bg {
-  margin: 5rem 0;
-}
-
-.mg-hg {
-  margin: 7rem 0;
-}
-
-.divider {
-  width: 100%;
-  height: 1px;
-  background-color: #dcdbdb;
-}
-
-.sub {
+.sub-heading {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 2.3rem;
-  color: #222;
-  text-transform: uppercase;
-  padding-bottom: 1.7rem;
-}
-
-@media only screen and (max-width: 48em) {
-  .mg-hg {
-    margin: 3rem 0;
-  }
+  color: #444;
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 7px;
 }
 
 .about {
@@ -210,7 +194,7 @@ a:hover {
 }
 
 .header .container {
-  width: 128rem;
+  width: 130rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -219,21 +203,16 @@ a:hover {
 .header .logo__container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 3rem 0 2.5rem;
+  justify-content: center;
+  padding: 4rem 0 3.5rem;
 }
 
 .header .logo__container h1 {
   display: inline-block;
   font-size: 4rem;
-  justify-self: center;
   font-family: "Domine", serif;
-  color: #222;
+  color: green;
   font-weight: 400;
-}
-
-.header .logo__container i {
-  font-size: 2rem;
 }
 
 .header .menu {
@@ -254,50 +233,70 @@ a:hover {
 .header .menu a {
   font-family: "Domine", serif;
   font-size: 1.5rem;
+  font-weight: 500;
   color: #222;
   line-height: 2.2rem;
 }
 
 .hero {
-  display: flex;
-  flex-direction: column;
   width: 100%;
-  height: 60rem;
-  margin: 4rem auto;
-  padding: 0 2rem;
-  background-color: #4FB477;
-  background-position: center;
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  display: flex;
+  margin: 5rem 0;
 }
 
-.hero__slogan {
-  font-family: "Domine", serif;
-  font-size: 6.5rem;
-  font-weight: 400;
-  color: #fff;
+.hero__col-1 {
+  width: 76rem;
+  padding-right: 3rem;
+  border-right: 1px solid #EAEAEA;
 }
 
-@media only screen and (max-width: 68.5em) {
-  .hero__slogan {
-    font-size: 4.5rem;
-  }
+.hero__col-2 {
+  width: 54rem;
+  padding: 0 3rem;
 }
 
-.hero__description {
-  font-family: "Roboto", sans-serif;
-  font-size: 2.3rem;
-  color: #fff;
-  font-weight: 400;
+#featured-hero-img {
+  width: 100%;
+  height: 48.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-@media only screen and (max-width: 68.5em) {
-  .hero__description {
-    font-size: 2rem;
-    margin-top: 1rem;
-  }
+.smArt {
+  display: flex;
+  margin: 3rem 0;
+  padding-bottom: 2rem;
+}
+
+.smArt .entry-image img {
+  display: block;
+  width: 15rem;
+  height: 10rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.smArt:nth-child(3) .entry-image img {
+  height: 13rem;
+}
+
+.smArt .entry-content {
+  padding-left: 1.7rem;
+}
+
+.smArt .entry-category {
+  margin: 0;
+}
+
+.smArt .entry-title {
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.smArt:not(:last-child) {
+  border-bottom: 1px solid #EAEAEA;
 }
 
 .feed {
@@ -524,6 +523,44 @@ a:hover {
   .article__content {
     padding: 1rem 0;
   }
+}
+
+.entry-image {
+  margin-bottom: 3rem;
+}
+
+.entry-image img {
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.entry-category {
+  display: block;
+  color: #333;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1.4rem 0;
+}
+
+.entry-title {
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.entry-date {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #999;
+  margin-top: 8px;
+}
+
+.entry-description {
+  font-size: 1.5rem;
+  color: #555;
 }
 
 .read-more {

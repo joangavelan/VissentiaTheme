@@ -14,23 +14,18 @@
     <header class="header">
         <div class="container">
             <div class="logo__container">
-                <i class="fas fa-envelope-open-text suscribe-icon"></i>
                 <h1>Vissentia</span></h1>
-                <div class="search-box">
-                    <i class="fas fa-search"></i>
-                </div>
-
             </div>
             <nav>
-                <?php
+            <?php
+                wp_nav_menu (
+    
+                array(
+                'theme_location' => 'top-menu',
+                )
 
-                wp_nav_menu 
-                (
-                    array(
-                        'theme_location' => 'top-menu',
-                    )
                 );
-                ?>
+            ?>
             </nav>
         </div>
     </header>

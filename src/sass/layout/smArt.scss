@@ -1,0 +1,37 @@
+.smArt {
+    display: flex;
+    margin: 3rem 0;
+    padding-bottom: 2rem;
+
+    & .entry-image {
+        & img {
+            display: block;
+            width: 15rem;
+            height: 10rem;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    &:nth-child(3) .entry-image img {
+        height: 13rem;
+    }
+ 
+    & .entry-content {
+        padding-left: 1.7rem;
+    }
+
+    & .entry-category {
+        margin: 0;
+    }
+
+    & .entry-title {
+        margin: 1rem 0;
+        line-height: 1.6;
+    }
+}
+
+
+.smArt:not(:last-child) {
+    border-bottom: 1px solid $color-gray-light;
+}

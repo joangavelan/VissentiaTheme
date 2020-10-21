@@ -1,39 +1,22 @@
 .hero {
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    height: 60rem;
-    margin: 4rem auto;
-    padding: 0 2rem;
-    background-color: $color-primary; 
-    background-position: center;
-    background-size: cover;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    display: flex;
+    margin: 5rem 0;
 
-    
-
-    &__slogan {
-        font-family: $font-primary;
-        font-size: 6.5rem;
-        font-weight: 400;
-        color: $color-white;
-
-        @media only screen and (max-width: 68.5em) {
-            font-size: 4.5rem;
-        }
+    &__col-1 {
+        width: 76rem;
+        padding-right: 3rem;
+        border-right: 1px solid $color-gray-light;
     }
 
-    &__description {
-        font-family: $font-tertiary;
-        font-size: 2.3rem;
-        color: $color-white;
-        font-weight: 400;
-
-        @media only screen and (max-width: 68.5em) {
-            font-size: 2rem;
-            margin-top: 1rem;
-        }
+    &__col-2 {
+        width: 54rem;
+        padding: 0 3rem;
     }
+}
+
+#featured-hero-img {
+    width: 100%;
+    height: 48.5rem;
+    object-fit: cover;
 }

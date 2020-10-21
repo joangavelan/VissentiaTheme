@@ -9,11 +9,13 @@ function vissentia_scripts() {
     wp_register_script('vissentia-script', get_template_directory_uri() . '/assets/js/main.js', true);
     wp_enqueue_script('vissentia-script');
     
+
     //Domine font
-    wp_enqueue_style('google_web_fonts', 'https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+    wp_enqueue_style('google_web_fonts - domine', 'https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
 
     //Roboto font
-    wp_enqueue_style('google_web_fonts', 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+    wp_enqueue_style('google_web_fonts - roboto', 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap', 'https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+
 }
 
 

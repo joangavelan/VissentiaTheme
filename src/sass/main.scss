@@ -1,19 +1,21 @@
 @import 'abstracts/variables';
+@import 'abstracts/helpers';
 
 @import 'base/base';
 @import 'base/typography';
-@import 'base/utilities';
 
 @import 'pages/about';
 @import 'pages/contact';
 
 @import 'layout/header';
 @import 'layout/hero';
+@import 'layout/smArt.scss';
 @import 'layout/feed';
 @import 'layout/post';
 @import 'layout/sidebar';
 @import 'layout/footer';
 
 @import 'components/article';
+@import 'components/entry';
 @import 'components/read-more';
 @import 'components/metas';
