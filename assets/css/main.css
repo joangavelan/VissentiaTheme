@@ -14,8 +14,16 @@
   margin: 5rem 0;
 }
 
+.m5 {
+  margin: 5rem 0;
+}
+
 .mg-hg {
   margin: 7rem 0;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
 }
 
 .title-xs {
@@ -91,7 +99,7 @@ a:hover {
 
 .site-content {
   display: block;
-  max-width: 130rem;
+  max-width: 129rem;
   margin: 0 auto;
 }
 
@@ -659,5 +667,28 @@ a:hover {
 
 .newsletter__subscription-box button:hover {
   background-color: #ff4e4eb2;
+}
+
+.categories__container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.categories__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 41rem;
+  height: 27.5rem;
+  background-color: #FBF5ED;
+  color: #444;
+  border-radius: 15px;
+}
+
+.categories__item > h3 {
+  font-family: "Roboto", sans-serif;
 }
 
