@@ -1,8 +1,8 @@
-.mg-tn {
+.m1 {
   margin: 1rem 0;
 }
 
-.mg-sm {
+.m2 {
   margin: 2rem 0;
 }
 
@@ -68,18 +68,11 @@ h2 {
 }
 
 h3 {
-  font-size: 2.6rem;
-  margin-bottom: -1rem;
+  font-size: 2.5rem;
 }
 
 h4 {
   font-size: 2.3rem;
-}
-
-li {
-  margin: 2.5rem 0;
-  line-height: 1.6em;
-  margin-left: 3.5rem;
 }
 
 p {
@@ -91,6 +84,10 @@ a {
   text-decoration: none;
   color: #222;
   word-break: break-word;
+}
+
+ul {
+  list-style: none;
 }
 
 a:hover {
@@ -320,6 +317,8 @@ a:hover {
 
 .feed__main {
   max-width: 100%;
+  padding-right: 3rem;
+  border-right: 1px solid #E5E5E5;
 }
 
 @media only screen and (max-width: 77.5em) {
@@ -329,8 +328,7 @@ a:hover {
 }
 
 .feed__sidebar {
-  max-width: 30rem;
-  margin-left: 5rem;
+  max-width: 42rem;
 }
 
 .post__title {
@@ -369,19 +367,8 @@ a:hover {
 }
 
 .sidebar {
-  width: 30rem;
-}
-
-.sidebar__ad {
-  width: 100%;
-  height: 65rem;
-  background-image: linear-gradient(to bottom, #4FB477, #9CFC97);
-}
-
-.sidebar__banner {
-  width: 100%;
-  height: 41rem;
-  background-color: #97A092;
+  width: 42rem;
+  padding: 0 3rem;
 }
 
 @media only screen and (max-width: 68.75em) {
@@ -475,42 +462,23 @@ a:hover {
 
 .article {
   display: flex;
-  height: 20rem;
+  height: 27rem;
 }
 
 .article__img {
   display: block;
-  width: 30rem;
+  width: 40.5rem;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.article__img:hover {
-  filter: brightness(106%);
-}
-
 .article__content {
-  padding: 1rem 2rem;
-}
-
-.article__title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 2.2rem;
-  line-height: 140%;
-}
-
-.article p {
-  margin: 1rem 0 0;
-}
-
-.article__title:hover {
-  color: #4FB477;
+  padding-left: 2.8rem;
 }
 
 .article:not(:first-child) {
-  margin: 3rem 0;
+  margin: 5rem 0;
 }
 
 @media only screen and (max-width: 45em) {
@@ -549,11 +517,12 @@ a:hover {
   font-size: 11px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-weight: 700;
-  margin: 1.4rem 0;
+  font-weight: 800;
+  margin-bottom: 1rem;
 }
 
 .entry-title {
+  font-family: "Domine", serif;
   margin: 0;
   font-weight: 500;
   line-height: 1.5;
@@ -563,7 +532,7 @@ a:hover {
   font-size: 1.4rem;
   font-weight: 400;
   color: #999;
-  margin-top: 8px;
+  margin-top: 1rem;
 }
 
 .entry-description {

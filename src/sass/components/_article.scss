@@ -1,41 +1,20 @@
 .article {
     display: flex;
-    height: 20rem;
-
+    height: 27rem;
 
     &__img {
         display: block;
-        width: 30rem;
+        width: 40.5rem;
         height: 100%;
         object-fit: cover;
-
-        &:hover {
-            filter: brightness(106%);
-        }
     }
 
     &__content {
-        padding: 1rem 2rem;
-        
-    }
-
-    &__title {
-        font-family: $font-tertiary;
-        font-weight: 700;
-        font-size: 2.2rem;
-        line-height: 140%;
-    }
-
-    & p {
-        margin: 1rem 0 0;
-    }
-
-    &__title:hover {
-        color: $color-primary;
+        padding-left: 2.8rem;
     }
 
     &:not(:first-child) {
-        margin: 3rem 0;
+        margin: 5rem 0;
     }
 
     @media only screen and (max-width: 45em) {

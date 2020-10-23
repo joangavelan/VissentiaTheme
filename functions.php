@@ -14,7 +14,7 @@ function vissentia_scripts() {
     wp_enqueue_style('google_web_fonts - domine', 'https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
 
     //Roboto font
-    wp_enqueue_style('google_web_fonts - roboto', 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap', 'https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+    wp_enqueue_style('google_web_fonts - roboto', 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 }
 
@@ -69,7 +69,7 @@ add_action('widgets_init', 'my_sidebars');
 
 //length
 function my_excerpt_length($length){
-    return 21;
+    return 27;
     }
 
 add_filter('excerpt_length', 'my_excerpt_length');

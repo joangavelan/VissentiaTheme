@@ -1,17 +1,6 @@
 .sidebar {
-    width: 30rem;
-
-    &__ad {
-        width: 100%;
-        height: 65rem;
-        background-image: linear-gradient(to bottom, $color-primary, $color-primary-light);
-    }
-
-    &__banner {
-        width: 100%;
-        height: 41rem;
-        background-color: #97A092;
-    }
+    width: 42rem;
+    padding: 0 3rem;
 
     @media only screen and (max-width: 68.75em) {
         display: none;

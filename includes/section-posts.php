@@ -12,22 +12,21 @@
 
     <?php while($_posts->have_posts()) : $_posts->the_post();?> 
 
-        <div class="article">
+        <article class="article">
             <?php if(has_post_thumbnail()) : ?>
                 <a href="<?php the_permalink();?>">
-                    <img class="article__img" src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>">
+                    <img class="article__img entry-image" src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>">
                 </a>
             <?php endif; ?>
             
             <div class="article__content">
-                <a class="article__title heading-secondary" href="<?php the_permalink();?>"><?php the_title();?></a>
-        
-                <?php the_excerpt();?>
-
-                <!-- <a href="<?//php the_permalink();?>" class="read-more">Leer más<span>&#8594;</span></a> -->
+                <div class="article__category entry-category"><?= the_category(); ?></div>
+                <h3><a class="entry-title" href="<?php the_permalink();?>"><?php the_title();?></a></h3>
+                <div class="entry-date"><?= get_the_date() ;?></div>
+                <div class="entry-description"><?php the_excerpt();?></div>
             </div>
 
-        </div>
+        </article>
 
         
     

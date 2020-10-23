@@ -1,6 +1,6 @@
-<section class="feed">
-
+<section class="feed">    
     <div class="feed__main">
+    <h3 class="sub-heading mb-5">Artículos Recientes</h3>
         <?php get_template_part('includes/section','posts'); ?>
         <?php previous_posts_link(); ?>
         <?php next_posts_link(); ?>
@@ -11,11 +11,9 @@
     <?php /*if(is_active_sidebar('blog-sidebar')) : ?>
         <?php dynamic_sidebar('blog-sidebar');?>
     <?php endif;*/ ?>
-
     <aside class="sidebar">
-        <div class="sidebar__ad"></div>
-        <div class="mg-bg"></div>
-        <div class="sidebar__banner"></div>
+    <h3 class="sub-heading mb-5">Recomendados</h3>
+    
     </aside>
     </div>
 
