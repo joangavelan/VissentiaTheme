@@ -203,6 +203,15 @@ a:hover {
   margin: 4px 0 7px;
 }
 
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: white;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
 .header .container {
   width: 130rem;
   margin: 0 auto;
@@ -214,14 +223,14 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4rem 0 3.5rem;
+  padding: 3rem 0 2.5rem;
 }
 
 .header .logo__container h1 {
   display: inline-block;
   font-size: 4rem;
   font-family: "Domine", serif;
-  color: green;
+  color: #333;
   font-weight: 400;
 }
 
@@ -323,7 +332,6 @@ a:hover {
 .feed__main {
   max-width: 100%;
   padding-right: 3rem;
-  border-right: 1px solid #E5E5E5;
 }
 
 @media only screen and (max-width: 77.5em) {
@@ -376,7 +384,8 @@ a:hover {
   padding: 0 3rem;
   position: -webkit-sticky;
   position: sticky;
-  top: 50px;
+  top: 220px;
+  border-left: 1px solid #E5E5E5;
 }
 
 .sidebar__post {

@@ -1,4 +1,9 @@
 .header {
+    position: sticky;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 
     .container {
         width: 130rem;
@@ -11,13 +16,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 4rem 0 3.5rem;
+        padding: 3rem 0 2.5rem;
 
         & h1 {
             display: inline-block;
             font-size: 4rem;
             font-family: $font-primary;
-            color: green;
+            color: #333;
             font-weight: 400;
         }
         
