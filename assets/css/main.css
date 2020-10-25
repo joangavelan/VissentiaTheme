@@ -6,7 +6,7 @@
   margin: 2rem 0;
 }
 
-.mg-md {
+.m3 {
   margin: 3rem 0;
 }
 
@@ -22,8 +22,12 @@
   margin: 7rem 0;
 }
 
+.mt-a {
+  margin-top: auto;
+}
+
 .mb-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 3rem;
 }
 
 .title-xs {
@@ -56,6 +60,8 @@ h4,
 h5,
 h6 {
   font-family: "Domine", serif;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 body {
@@ -72,7 +78,7 @@ h3 {
 }
 
 h4 {
-  font-size: 2.3rem;
+  font-size: 1.6rem;
 }
 
 p {
@@ -150,7 +156,6 @@ a:hover {
   color: #444;
   font-size: 2.4rem;
   font-weight: 500;
-  margin-bottom: 7px;
 }
 
 .about {
@@ -369,6 +374,31 @@ a:hover {
 .sidebar {
   width: 42rem;
   padding: 0 3rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+}
+
+.sidebar__post {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 3rem;
+}
+
+.sidebar__post-counter {
+  font-size: 2.6rem;
+  font-weight: 700;
+  font-family: "Domine", serif;
+  color: #DDD;
+  line-height: 1;
+}
+
+.sidebar__post-meta {
+  padding-left: 1rem;
+}
+
+.sidebar__post:not(:first-child) {
+  padding-top: 3rem;
 }
 
 @media only screen and (max-width: 68.75em) {
@@ -477,8 +507,8 @@ a:hover {
   padding-left: 2.8rem;
 }
 
-.article:not(:first-child) {
-  margin: 5rem 0;
+.article:not(:last-child) {
+  margin-bottom: 5rem;
 }
 
 @media only screen and (max-width: 45em) {
@@ -518,6 +548,7 @@ a:hover {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 800;
+  margin-top: 2px;
   margin-bottom: 1rem;
 }
 
