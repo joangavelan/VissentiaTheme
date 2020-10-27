@@ -64,13 +64,12 @@
     
     <h3 class="sub-heading m3">Ad</h3>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- vertical ad -->
-        <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-7997794586711401"
-            data-ad-slot="6899036998"
-            data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+    <!-- s - ad -->
+    <ins class="adsbygoogle"
+        style="display:inline-block;width:390px;height:390px"
+        data-ad-client="ca-pub-7997794586711401"
+        data-ad-slot="4859761664"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 </aside>
