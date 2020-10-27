@@ -1,0 +1,26 @@
+.posts-bc {
+    display: flex;
+    justify-content: space-between;
+
+    &__col {
+
+        & article:not(:last-child) {
+            border-bottom: 1px solid #EEE;
+            padding-bottom: 3rem;
+        }
+
+        & article:not(:nth-child(2)) {
+            padding-top: 3rem;
+        }
+    }
+
+    &__col:not(:last-child) {
+        border-right: 1px solid #EEE;
+        padding-right: 3rem;
+    }
+
+    &__col:not(:first-child) {
+        padding-left: 3rem;
+    }
+
+}

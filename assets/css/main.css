@@ -34,6 +34,10 @@
   font-size: 1.84rem;
 }
 
+.title-sm {
+  font-size: 2rem;
+}
+
 *,
 *::before,
 *::after {
@@ -62,6 +66,7 @@ h6 {
   font-family: "Domine", serif;
   font-weight: 500;
   line-height: 1.5;
+  margin-bottom: 3rem;
 }
 
 body {
@@ -97,7 +102,7 @@ ul {
 }
 
 a:hover {
-  color: #1b8553;
+  color: #17633f;
 }
 
 .site-content {
@@ -232,6 +237,7 @@ a:hover {
   font-family: "Domine", serif;
   color: #333;
   font-weight: 400;
+  margin: 0;
 }
 
 .header .menu {
@@ -414,6 +420,29 @@ a:hover {
   .sidebar {
     display: none;
   }
+}
+
+.posts-bc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.posts-bc__col article:not(:last-child) {
+  border-bottom: 1px solid #EEE;
+  padding-bottom: 3rem;
+}
+
+.posts-bc__col article:not(:nth-child(2)) {
+  padding-top: 3rem;
+}
+
+.posts-bc__col:not(:last-child) {
+  border-right: 1px solid #EEE;
+  padding-right: 3rem;
+}
+
+.posts-bc__col:not(:first-child) {
+  padding-left: 3rem;
 }
 
 .footer {
