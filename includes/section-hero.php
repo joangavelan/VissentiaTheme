@@ -18,7 +18,7 @@
     </div>
 
     <div class="hero__col-2">
-        <h3 class="sub-heading">Highlights</h3>
+        <h3 class="sub-heading">Destacados</h3>
             <article class="entry smArt">
                 <div class="entry-image">
                     <a href="https://vissentia.com/beneficios-de-las-semillas-de-chia/"><img src="https://vissentia.com/wp-content/uploads/2020/09/Semillas-de-Chia-5-Beneficios-de-las-semillas-ricas-en-Omega-3-750x425.jpg" alt="Semillas de Chia"></a>

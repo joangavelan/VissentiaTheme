@@ -1,83 +1,97 @@
 .footer {
-    padding: 3rem 0 4rem;
-    background-color: #eff0ee;
-    text-align: center;
+    max-width: 132rem;
+    margin: 0 auto;
+    padding: 8rem 4rem;
+    background-color: #1B3C35;
+    color: white;
+    border-radius: 3px;
 
-    &__title {
-        font-size: 3.7rem;
-        font-family: $font-primary;
-        font-weight: 500;
-        color: $color-primary;
+    &__row:first-child {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(238, 238, 238, 0.534);
+        padding-bottom: 5rem;
 
-        & span {
-            color: #8f8f8f;
-            margin-left: 3px;
+        & .footer__nav {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 150px;
+
+            & li:not(:last-child) {
+                margin: 0 5rem 3rem 0;
+            }
+
+            & a {
+                color: white;
+            }
+        }   
+    }
+
+    &__subscribe h4 {
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+    }
+
+    & .suscribe-form {
+        width: 50rem;
+        display: flex;
+
+        & input {
+            width: 70%;
+            padding: 1.7rem 2rem;
+            outline: 0;
+            font-size: 1.6rem;
+            background-color: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.308);
+            color: rgba(238, 238, 238, 0.829);
+        }
+
+        & input::placeholder{
+            font-family: $font-primary;
+            color: rgba(238, 238, 238, 0.829);
+        }
+
+        & button {
+            font-family: $font-primary;
+            width: 30%;
+            font-weight: 600;
+            font-size: 1.6rem;
+            margin-left: auto;
+            padding: 1.7rem 2rem;
+            background-color: transparent;
+            outline: none;
+            border: 1px solid rgba(255, 255, 255, 0.308);
+            color: white;
+            cursor: pointer;
         }
     }
 
-    &__logo-box {
+    &__links {
+        width: 100%;
         display: flex;
-        flex-direction: column;
         align-items: center;
-        margin: 1.5rem 0;
-    }
-    
-    /*
-    &__nav {
-        display: flex;
-        justify-content: center;
-        padding: 2rem;
-    }
-    */
-
-    &__menu {
-        width: 85rem;
-        display: flex;
         justify-content: space-between;
-        list-style: none;
-    }
+        font-weight: 300;
+        margin: 3rem 0;
 
-    &__link {
-        font-family: $font-tertiary;
-        font-size: 1.45rem;
-        font-weight: 500;
-        color: rgb(68, 68, 68);
-        text-decoration: none;
-        text-transform: uppercase;
-        letter-spacing: 1px;
+        & a {
+            font-size: 1.7rem;
+            color: #eee;
+        }
 
-        &:hover {
-            color: $color-primary;
+        & li:not(:last-child)::after {
+            display: block;
+            content: '|';
+            float: right;
+            margin-left: 7rem;
         }
     }
     
     &__rights {
-        display: block;
-        font-family: 'Nunito Sans';
-        font-size: 1.6rem;
-        color: $color-text;
+        color: #eee;
+        font-weight: 300;
     }
 
-    &__right {
-        font-family: 'Nunito Sans';
-        font-size: 1.6rem;
-        color: $color-text;
-        text-decoration: none;
-        margin-right: 5px;
-
-        &:hover {
-            text-decoration: underline;
-        }  
-    }
-
-    &__copyright {
-        margin-left: 5px;
-    }
-
-    @media only screen and (max-width: 25em) {
-        &__copyright,
-        &__right {
-            font-size: 1.5rem;
-        }
-    }
 }

@@ -3,29 +3,39 @@
 
     
     </main>
-    <div class="mg-hg"></div>
     <footer class="footer">
-        <div class="footer__logo-box">
-            <h2 class="footer__title">Vitae<span>Essentia</span></h2>
+        <div class="footer__row">
+            <div class="footer__brand">
+                <div class="logo"><h2>Vissentia</h2></div>
+                <ul class="footer__nav">
+                   <li><a href="#">Superalimentos</a></li> 
+                   <li><a href="#">Cultivo</a></li> 
+                   <li><a href="#">Blog</a></li>
+                   <li><a href="#">Tecnología</a></li> 
+                   <li><a href="#">Plantas Medicinales</a></li>  
+                </ul>
+            </div>
+    
+            <div class="footer__subscribe">
+                <h4>Conoce más de productos orgánicos excepcionales.</h4>
+                <form class="suscribe-form">
+                    <input type="email" name="subscription-footer" class="suscribe-field" placeholder="Ingrese su email" required>
+                    <button type="submit">Suscribirme</button>
+                </form>
+            </div>
         </div>
-        <!-- <div class="footer__nav">
-            <ul class="footer__menu">
-                <li class="footer__item"><a href="#" class="footer__link">Home</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Superalimentos</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Salud</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Hierbas</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Frutas</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
-                <li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
+
+        <div class="footer__row">
+            <ul class="footer__links">
+                <li><a href="#">Términos & Condiciones</a></li>
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Google Adsense</a></li>
+                <li><a href="#">Cookies</a></li>
+                <li><a href="#">Contáctanos</a></li>
             </ul>
-            </nav>
-        </div> -->
-        <div class="footer__rights">
-        <a href="https://vissentia.com/terminos-y-condiciones/" class="footer__right">Términos y Condiciones</a>
-          |   
-        <a href="https://vissentia.com/politica-de-privacidad/" class="footer__right">Política de Privacidad</a>
-          |   
-        <span class="footer__copyright">2020 © Vissentia</span></div>
+        </div>
+
+        <div class="footer__rights">2020 &copy; Vissentia - Todos los Derechos Reservados</div>
     </footer>
 
 </script>
