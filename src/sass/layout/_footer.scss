@@ -1,5 +1,6 @@
 .footer {
-    max-width: 140rem;
+    font-family: $font-primary;
+    max-width: 150rem;
     margin: 0 auto;
     padding: 8rem 4rem;
     background-color: #1B3C35;
@@ -24,6 +25,7 @@
             }
 
             & a {
+                font-size: 1.6rem;
                 color: white;
             }
         }   
@@ -49,7 +51,6 @@
         }
 
         & input::placeholder{
-            font-family: $font-primary;
             color: rgba(238, 238, 238, 0.829);
         }
 
@@ -63,8 +64,14 @@
             background-color: transparent;
             outline: none;
             border: 1px solid rgba(255, 255, 255, 0.308);
+            border-radius: 0 3px 3px 0;
             color: white;
             cursor: pointer;
+        }
+
+        & button:hover {
+            background-color: white;
+            color: #1c5f51;
         }
     }
 
@@ -77,21 +84,16 @@
         margin: 3rem 0;
 
         & a {
-            font-size: 1.7rem;
+            font-size: 1.5rem;
             color: #eee;
-        }
-
-        & li:not(:last-child)::after {
-            display: block;
-            content: '|';
-            float: right;
-            margin-left: 7rem;
         }
     }
     
     &__rights {
         color: #eee;
-        font-weight: 300;
+        font-size: 1.5rem;
     }
 
 }
+
+//#1B3C35 verde-oscuro-footer

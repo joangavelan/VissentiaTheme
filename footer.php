@@ -27,10 +27,10 @@
 
         <div class="footer__row">
             <ul class="footer__links">
-                <li><a href="#">Términos & Condiciones</a></li>
-                <li><a href="#">Política de Privacidad</a></li>
-                <li><a href="#">Google Adsense</a></li>
-                <li><a href="#">Cookies</a></li>
+                <li><a href="#">Términos & Condiciones</a></li><span>|</span>
+                <li><a href="#">Política de Privacidad</a></li><span>|</span>
+                <li><a href="#">Google Adsense</a></li><span>|</span>
+                <li><a href="#">Cookies</a></li><span>|</span>
                 <li><a href="#">Contáctanos</a></li>
             </ul>
         </div>

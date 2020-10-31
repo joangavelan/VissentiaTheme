@@ -447,7 +447,8 @@ a:hover {
 }
 
 .footer {
-  max-width: 140rem;
+  font-family: "Domine", serif;
+  max-width: 150rem;
   margin: 0 auto;
   padding: 8rem 4rem;
   background-color: #1B3C35;
@@ -475,6 +476,7 @@ a:hover {
 }
 
 .footer__row:first-child .footer__nav a {
+  font-size: 1.6rem;
   color: white;
 }
 
@@ -499,17 +501,14 @@ a:hover {
 }
 
 .footer .suscribe-form input::-moz-placeholder {
-  font-family: "Domine", serif;
   color: rgba(238, 238, 238, 0.829);
 }
 
 .footer .suscribe-form input:-ms-input-placeholder {
-  font-family: "Domine", serif;
   color: rgba(238, 238, 238, 0.829);
 }
 
 .footer .suscribe-form input::placeholder {
-  font-family: "Domine", serif;
   color: rgba(238, 238, 238, 0.829);
 }
 
@@ -523,8 +522,14 @@ a:hover {
   background-color: transparent;
   outline: none;
   border: 1px solid rgba(255, 255, 255, 0.308);
+  border-radius: 0 3px 3px 0;
   color: white;
   cursor: pointer;
+}
+
+.footer .suscribe-form button:hover {
+  background-color: white;
+  color: #1c5f51;
 }
 
 .footer__links {
@@ -537,20 +542,13 @@ a:hover {
 }
 
 .footer__links a {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: #eee;
-}
-
-.footer__links li:not(:last-child)::after {
-  display: block;
-  content: "|";
-  float: right;
-  margin-left: 7rem;
 }
 
 .footer__rights {
   color: #eee;
-  font-weight: 300;
+  font-size: 1.5rem;
 }
 
 .article {
@@ -694,11 +692,7 @@ a:hover {
 .newsletter__heading {
   font-size: 2.4rem;
   color: #444;
-}
-
-.newsletter__subscription-box {
-  position: relative;
-  top: 7px;
+  margin: 0;
 }
 
 .newsletter__subscription-box input {
@@ -725,11 +719,6 @@ a:hover {
   border: 0;
   border-radius: 3px;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-.newsletter__subscription-box button:hover {
-  background-color: #ff4e4eb2;
 }
 
 .categories__container {
