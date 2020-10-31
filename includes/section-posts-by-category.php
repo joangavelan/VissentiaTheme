@@ -8,6 +8,8 @@
                 'category' => 10,
                 'numberposts' => 3
             );
+            $superalimentos = get_category_link(10);
+            $plantas_medicinales = get_category_link(11);
                 
                 $posts = get_posts($cat_superalimentos);    
                 foreach ($posts as $post) :  setup_postdata($post); 
@@ -17,7 +19,10 @@
                         <div class="entry-date"><?= get_the_date(); ?></div> 
                     </article>
                 <?php endforeach; 
-            ?>                     
+               
+            ?>
+            
+            <a href="<?=esc_url($superalimentos);?>" class="posts-bc__btn">Ver más<i class="fas fa-long-arrow-alt-right"></i></a>
         
         </div>
 
@@ -37,9 +42,9 @@
                         <h3 class="entry-title title-sm"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3> 
                         <div class="entry-date"><?= get_the_date(); ?></div> 
                     </article>
-                <?php endforeach; 
-            ?>       
-        
+                <?php endforeach;?>
+                
+            <a href="<?=esc_url($plantas_medicinales);?>" class="posts-bc__btn">Ver más<i class="fas fa-long-arrow-alt-right"></i></a>
         
         </div>
         <div class="posts-bc__col">
@@ -58,8 +63,10 @@
                         <h3 class="entry-title title-sm"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3> 
                         <div class="entry-date"><?= get_the_date(); ?></div> 
                     </article>
-                <?php endforeach; 
-            ?>
+                    
+                <?php endforeach;?>
+
+            <a href="<?=esc_url($superalimentos)?>" class="posts-bc__btn">Ver más<i class="fas fa-long-arrow-alt-right"></i></a>
         
         </div>
 
@@ -81,7 +88,9 @@
                     </article>
                 <?php endforeach; 
             ?> 
-        
+
+            <a href="<?=esc_url($plantas_medicinales);?>" class="posts-bc__btn">Ver más<i class="fas fa-long-arrow-alt-right"></i></a>
+
         </div>
 
         

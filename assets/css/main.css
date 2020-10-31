@@ -428,9 +428,17 @@ a:hover {
   margin: 6rem 0;
 }
 
-.posts-bc__col article:not(:last-child) {
-  border-bottom: 1px solid #EEE;
+.posts-bc__col {
+  padding-bottom: 5rem;
+}
+
+.posts-bc__col article {
   padding-bottom: 3rem;
+}
+
+.posts-bc__col article:nth-child(2),
+.posts-bc__col article:nth-child(3) {
+  border-bottom: 1px solid #EEE;
 }
 
 .posts-bc__col article:not(:nth-child(2)) {
@@ -444,6 +452,21 @@ a:hover {
 
 .posts-bc__col:not(:first-child) {
   padding-left: 3rem;
+}
+
+.posts-bc__btn {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.posts-bc__btn i {
+  font-size: 1.4rem;
+  margin-left: 5px;
+  color: #444;
+}
+
+.posts-bc__btn:hover > * {
+  color: #1c5f51;
 }
 
 .footer {
