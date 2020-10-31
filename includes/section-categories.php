@@ -12,5 +12,9 @@
         <div class="categories__item">
             <h3>Cultiva en Casa</h3>
         </div>
+
+        <div class="categories__item">
+            <h3>Tecnología</h3>
+        </div>
     </div>
 </section>

@@ -686,7 +686,6 @@ a:hover {
   justify-content: space-between;
   background-color: #FBF5ED;
   padding: 5.5rem 8rem 6rem;
-  border-radius: 4px;
 }
 
 .newsletter__heading {
@@ -721,6 +720,10 @@ a:hover {
   cursor: pointer;
 }
 
+.categories {
+  margin: 5rem 0 8rem;
+}
+
 .categories__container {
   width: 100%;
   display: flex;
@@ -733,15 +736,17 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 41rem;
-  height: 27.5rem;
+  width: 24%;
+  height: 23rem;
   background-color: #FBF5ED;
   color: #444;
-  border-radius: 3px;
+  border-radius: 30px;
 }
 
 .categories__item > h3 {
+  font-size: 2rem;
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
 .ad-section {
