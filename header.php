@@ -13,8 +13,9 @@
     <header class="header">
         <div class="container">
             <div class="logo__container">
-                <h1>Vissentia</span></h1>
+                <a href="<?=site_url();?>"><h1>Vitae<span>Essentia</span></h1></a>
             </div>
+
             <nav>
             <?php
                 wp_nav_menu (

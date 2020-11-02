@@ -215,47 +215,53 @@ a:hover {
   top: 0;
   left: 0;
   z-index: 1000;
+  border-bottom: 2px solid #EEE;
+  padding: 1.2rem;
 }
 
 .header .container {
   width: 130rem;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header .logo__container {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3rem 0 2.5rem;
 }
 
 .header .logo__container h1 {
   display: inline-block;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: "Domine", serif;
-  color: #333;
-  font-weight: 500;
+  color: #0d725c;
+  font-weight: 700;
   margin: 0;
+}
+
+.header .logo__container span {
+  margin-left: 1.5px;
+  color: #494949;
+  font-weight: 300;
+}
+
+.header nav {
+  width: 50%;
 }
 
 .header .menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  border-top: 1px solid #E5E5E5;
-  border-bottom: 1px solid #E5E5E5;
   list-style: none;
-  padding: 2rem 5rem;
 }
 
-.header .menu li {
-  margin: 0;
-}
-
-.header .menu a {
+.header .menu a,
+.header .menu a:link {
   font-family: "Domine", serif;
   font-size: 1.5rem;
   font-weight: 500;
@@ -263,10 +269,15 @@ a:hover {
   line-height: 2.2rem;
 }
 
+.header .menu a:active,
+.header .menu a:hover {
+  color: #1c5f51;
+}
+
 .hero {
   width: 100%;
   display: flex;
-  margin: 5rem 0;
+  margin: 4rem 0;
 }
 
 .hero__col-1 {
@@ -390,7 +401,7 @@ a:hover {
   padding: 0 3rem;
   position: -webkit-sticky;
   position: sticky;
-  top: 220px;
+  top: 100px;
   border-left: 1px solid #E5E5E5;
 }
 
