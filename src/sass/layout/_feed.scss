@@ -2,20 +2,17 @@
     display: flex;
     justify-content: space-between;
 
-    @media only screen and (max-width: 77.5em) {
-        flex-direction: column;
-    }
-
     &__main {
-        max-width: 100%;
-        padding-right: 3rem;
-
-        @media only screen and (max-width: 77.5em) {
-            max-width: 100%;
-        }
+        width: 87rem    ;
+        padding-right: 3rem; 
     }
 
     &__sidebar {
         max-width: 42rem;
+
+        @media only screen and (max-width: 77.5em)  {
+            width: 35rem;
+        }
     }
+
 }

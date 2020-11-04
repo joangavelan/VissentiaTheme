@@ -7,6 +7,11 @@
         width: 40.5rem;
         height: 100%;
         object-fit: cover;
+
+        @media only screen and (max-width: 77.5em) {
+            width: 27rem;
+            height: auto;
+        }
     }
 
     &__content {

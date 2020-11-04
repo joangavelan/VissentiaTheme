@@ -6,6 +6,7 @@
         & img {
             display: block;
             width: 100%;
+            height: auto;
             border-radius: 3px;
         }
     }
@@ -17,6 +18,7 @@
         letter-spacing: 1px;
         text-transform: uppercase;
         font-weight: 800;
+        line-height: 1.5;
         margin-top: 2px;
         margin-bottom: 1rem;
     }
@@ -36,7 +38,17 @@
     }
 
     &-description {
-        font-size: 1.5rem;
         color: #555;
+
+        & > p {
+            font-size: 1.6rem;
+        }
+    }
+
+
+    @media only screen and (max-width: $tablet) {
+        &-date {
+            font-size: 1.6rem;
+        }
     }
 }

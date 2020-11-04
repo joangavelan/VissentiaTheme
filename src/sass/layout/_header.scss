@@ -5,10 +5,10 @@
     left: 0;
     z-index: 1000;
     border-bottom: 2px solid #EEE;
-    padding: 1.2rem;
+    padding: 1.2rem 3rem;
 
     .container {
-        width: 130rem;
+        max-width: 129rem;
         margin: 0 auto;
         display: flex;
         flex-direction: row;

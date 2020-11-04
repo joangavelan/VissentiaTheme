@@ -26,6 +26,7 @@
     }
 
     & .entry-title {
+        font-size: 1.84rem;
         margin: 1rem 0;
         line-height: 1.6;
     }
@@ -34,4 +35,24 @@
 
 .smArt:not(:last-child) {
     border-bottom: 1px solid $color-gray-light;
+}
+
+
+@media only screen and (max-width: $tablet) {
+    .smArt {
+        & .entry-image {
+            & img {
+                width: 24rem;
+                height: 15.5rem;
+            }
+        }
+
+        &:nth-child(3) .entry-image img {
+            height: 20rem;
+        }
+
+        & .entry-title {
+            font-size: 2rem;
+        }
+    }
 }

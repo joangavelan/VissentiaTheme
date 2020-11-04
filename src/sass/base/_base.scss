@@ -10,12 +10,15 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-}
 
-@media only screen and (max-width: 68.75em) {
-  html {
+  @media only screen and (max-width: 90em) {
+    font-size: 58%;
+  }
+
+  @media only screen and (max-width: 77.5em) {
     font-size: 56.5%;
   }
+
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -43,6 +46,7 @@ h4 {
 }
 
 p {
+  font-size: 1.8rem;
   line-height: 1.6em;
   margin: 2.5rem 0;
 }
@@ -67,24 +71,16 @@ a:hover {
   margin: 0 auto;
 
   @media only screen and (max-width: 77.5em) {
-    padding: 0 2rem;
+    padding: 0 3rem;
   }
 }
 
-@media only screen and (max-width: 48em) {
-  p,
-  li {
-    font-size: 2rem;
-  }
+// @media only screen and (max-width: $tablet) {
+//   h2 {
+//     font-size: 3.2rem;
+//   }
 
-  h2 {
-    font-size: 3rem;
-  }
-
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-size: 2.8rem;
-  }
-}
+//   h3 {
+//     font-size: 3rem;
+//   }
+// }

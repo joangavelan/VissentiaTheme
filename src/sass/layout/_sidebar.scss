@@ -1,11 +1,11 @@
 .sidebar {
-    width: 42rem;
     padding: 0 3rem;
     position: sticky;
     top: 100px;
     border-left: 1px solid #E5E5E5;
 
     &__post {
+        max-width: 100%;
         display: flex;
         border-bottom: 1px solid #eee;
         padding-bottom: 3rem;
@@ -27,7 +27,4 @@
         padding-top: 3rem;
     }
 
-    @media only screen and (max-width: 68.75em) {
-        display: none;
-    }
 }

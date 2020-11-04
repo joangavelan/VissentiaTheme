@@ -1,5 +1,5 @@
 <section class="hero">
-    <div class="hero__col-1">
+    <div class="hero__col-1 hero__cols">
         <article class="entry">
             <div class="entry-image">
                 <a href="demo-blog-single.html"><img id="featured-hero-img" src="https://vissentia.com/wp-content/uploads/2020/07/superalimentos-del-peru-750x425.jpg" alt="13 Superalimentos del Perú"></a>
@@ -17,7 +17,7 @@
         </article>
     </div>
 
-    <div class="hero__col-2">
+    <div class="hero__col-2 hero__cols">
         <h3 class="sub-heading">Destacados</h3>
             <article class="entry smArt">
                 <div class="entry-image">
@@ -25,7 +25,7 @@
                 </div>
                 <div class="entry-content">
                     <a href="https://vissentia.com/superalimentos/" class="entry-category">Superalimentos</a>
-                    <h3 class="entry-title title-xs">
+                    <h3 class="entry-title">
                         <a href="https://vissentia.com/beneficios-de-las-semillas-de-chia/">6 Beneficios de las Semillas de Chía ricas en Omega-3</a>
                     </h3>
                     <div class="entry-date">Lunes 14, 2020</div>
@@ -38,7 +38,7 @@
                 </div>
                 <div class="entry-content">
                     <a href="https://vissentia.com/superalimentos/" class="entry-category">Superalimentos</a>
-                    <h3 class="entry-title title-xs">
+                    <h3 class="entry-title">
                         <a href="https://vissentia.com/acai-berry-superalimento-propiedades-y-beneficios/">Açai: 5 Poderosos Beneficios del Fruto Amazónico</a>
                     </h3>
                     <div class="entry-date">Lunes 14, 2020</div>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="entry-content">
                     <a href="https://vissentia.com/plantas-medicinales/" class="entry-category">Plantas Medicinales</a>
-                    <h3 class="entry-title title-xs">
+                    <h3 class="entry-title">
                         <a href="https://vissentia.com/plantas-medicinales-y-sus-propiedades-curativas/">17 Plantas Medicinales Y Sus Poderosas Propiedades Curativas</a>
                     </h3>
                     <div class="entry-date">Lunes 14, 2020</div>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="entry-content">
                     <a href="https://vissentia.com/superalimentos/" class="entry-category">Superalimentos</a>
-                    <h3 class="entry-title title-xs">
+                    <h3 class="entry-title">
                         <a href="https://vissentia.com/camu-camu-propiedades-y-beneficios/">Camu Camu: 50-60 veces más Vitamina C que la Naranja</a>
                     </h3>
                     <div class="entry-date">Lunes 14, 2020</div>

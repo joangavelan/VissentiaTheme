@@ -16,9 +16,11 @@
         <article class="article">
 
             <?php if(has_post_thumbnail()) : ?>
-                <a href="<?php the_permalink();?>">
-                    <img class="article__img entry-image" src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>">
-                </a>
+                <div class="article__img-wrapper">
+                    <a href="<?php the_permalink();?>">
+                        <img class="article__img entry-image" src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>">
+                    </a>
+                </div>
             <?php endif; ?>
             
 
