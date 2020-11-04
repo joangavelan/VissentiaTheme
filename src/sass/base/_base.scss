@@ -73,6 +73,10 @@ a:hover {
   @media only screen and (max-width: 77.5em) {
     padding: 0 3rem;
   }
+
+  @media only screen and (max-width: $tablet) {
+    max-width: 77rem;
+  }
 }
 
 // @media only screen and (max-width: $tablet) {

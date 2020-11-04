@@ -13,7 +13,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 24%;
+        min-width: 31rem;
         height: 23rem;
         background-color: #FBF5ED;
         color: #444;
@@ -23,6 +23,11 @@
             font-size: 2rem;
             font-family: $font-secondary;
             margin: 0;
+        }
+
+        @media (max-width: 77.5em) {
+            width: calc(50% - 2rem);
+            margin: 1.5rem auto;
         }
     }
 }

@@ -124,6 +124,12 @@ a:hover {
   }
 }
 
+@media only screen and (max-width: 62em) {
+  .site-content {
+    max-width: 77rem;
+  }
+}
+
 .heading-primary {
   font-family: "Roboto", sans-serif;
   font-size: 4.8rem;
@@ -289,7 +295,6 @@ a:hover {
 
 @media only screen and (max-width: 62em) {
   .hero {
-    max-width: 77rem;
     flex-direction: column;
     margin: 5rem auto;
   }
@@ -310,8 +315,6 @@ a:hover {
 
 .smArt {
   display: flex;
-  margin: 3rem 0;
-  padding-bottom: 2rem;
 }
 
 .smArt .entry-image img {
@@ -344,6 +347,8 @@ a:hover {
 
 .smArt:not(:last-child) {
   border-bottom: 1px solid #EAEAEA;
+  margin: 3rem 0;
+  padding-bottom: 2rem;
 }
 
 @media only screen and (max-width: 62em) {
@@ -802,7 +807,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 24%;
+  min-width: 31rem;
   height: 23rem;
   background-color: #FBF5ED;
   color: #444;
@@ -813,6 +818,13 @@ a:hover {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
   margin: 0;
+}
+
+@media (max-width: 77.5em) {
+  .categories__item {
+    width: calc(50% - 2rem);
+    margin: 1.5rem auto;
+  }
 }
 
 .ad-section {
