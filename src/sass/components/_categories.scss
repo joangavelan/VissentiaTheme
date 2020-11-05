@@ -20,14 +20,22 @@
         border-radius: 30px;
 
         & > h3 {
-            font-size: 2rem;
+            font-size: 1.8rem;
             font-family: $font-secondary;
             margin: 0;
         }
+    }
 
-        @media (max-width: $laptop) {
-            width: calc(50% - 2rem);
-            margin: 1.5rem auto;
+    @media (max-width: $tablet) {
+        margin: 5rem 0;
+
+        &__item {
+            width: calc(50% - 1rem);
+        }
+
+        &__item:nth-child(3),
+        &__item:nth-child(4) {
+            margin-top: 2rem;
         }
     }
 }

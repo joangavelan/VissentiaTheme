@@ -8,15 +8,25 @@
     }
 
     &__sidebar {
-        max-width: 33%;
+        width: 33%;
 
-        @media (max-width: 77.5em)  {
+        @media (max-width: $laptop)  {
             width: 35rem;
         }
     }
 
-    @media (max-width: $tablet)  {
-        flex-direction: column;
-    }
 
+    @media (max-width: $tablet) {
+        flex-direction: column;
+
+        &__main {
+            width: 100%;
+            padding: 0;
+        }
+
+        &__sidebar {
+            width: 100%;
+            margin-top: 8rem;
+        }
+    }
 }

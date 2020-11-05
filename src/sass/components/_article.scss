@@ -11,7 +11,7 @@
     }
 
     &__content {
-        padding-left: 2rem;
+        padding-left: 2.5rem;
 
         & p {
             margin: 1.5rem 0;
@@ -22,6 +22,8 @@
         margin-bottom: 5rem;
     }
 
+    //RESPONSIVE
+    //LAPTOP
     @media (max-width: $laptop) {
         &__img {
             width: 27rem;
@@ -29,10 +31,26 @@
         } 
     }
 
+    //TABLET
     @media (max-width: $tablet) {
-        
+        height: auto;
+
+
+        &__img {
+            width: 33rem;
+            height: 22rem;
+        }
+
+        &__content {
+            padding: 1.6rem 0 0 3rem;
+
+            & p {
+                margin: 2.5rem 0;
+            }
+        }
     }
 
+    //PHONE
     @media (max-width: 25em) {
         flex-direction: column;
         height: 100%;

@@ -27,4 +27,15 @@
         padding-top: 3rem;
     }
 
+    //RESPONSIVE
+    // TABLET //
+    @media (max-width: $tablet) {
+        border: 0;
+        padding: 0;
+
+        &__post {
+            padding-bottom: 3.5rem;
+        }
+    }
+
 }

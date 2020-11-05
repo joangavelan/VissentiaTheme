@@ -1,14 +1,7 @@
 .entry {
 
     &-image {
-        margin-bottom: 3rem;
-
-        & img {
-            display: block;
-            width: 100%;
-            height: auto;
-            border-radius: 3px;
-        }
+        border-radius: 3px;
     }
 
     &-category {
@@ -41,14 +34,8 @@
         color: #555;
 
         & > p {
-            font-size: 1.6rem;
-        }
-    }
-
-
-    @media only screen and (max-width: $tablet) {
-        &-date {
-            font-size: 1.6rem;
+            font-size: 1.5rem;
+            line-height: 1.5;
         }
     }
 }

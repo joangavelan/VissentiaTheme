@@ -19,12 +19,12 @@
     width: 100%;
     max-height: 48.5rem;
     object-fit: cover;
+    margin-bottom: 2rem;
 }
 
 @media (max-width: $tablet) {
     .hero {
         flex-direction: column;
-        margin: 5rem auto;
 
         &__cols {
             padding: 0;
@@ -33,6 +33,7 @@
         &__col-1 {
             border: 0;
             width: 100%;
+            margin-bottom: 4rem;
         }
 
         &__col-2 {
