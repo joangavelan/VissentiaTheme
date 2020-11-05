@@ -3,16 +3,20 @@
     justify-content: space-between;
 
     &__main {
-        width: 87rem    ;
+        width: 67%;
         padding-right: 3rem; 
     }
 
     &__sidebar {
-        max-width: 42rem;
+        max-width: 33%;
 
-        @media only screen and (max-width: 77.5em)  {
+        @media (max-width: 77.5em)  {
             width: 35rem;
         }
+    }
+
+    @media (max-width: $tablet)  {
+        flex-direction: column;
     }
 
 }

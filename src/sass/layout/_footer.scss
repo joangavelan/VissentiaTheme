@@ -1,6 +1,6 @@
 .footer {
     font-family: $font-primary;
-    max-width: 150rem;
+    max-width: $site-width + 20rem;
     margin: 0 auto;
     padding: 8rem 4rem;
     background-color: #1B3C35;

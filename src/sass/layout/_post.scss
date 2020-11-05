@@ -28,7 +28,7 @@
         margin: 0;
     }
 
-    @media only screen and (max-width: 48em) {
+    @media (max-width: $phone) {
 
         &__title {
         font-size: 3.8rem;

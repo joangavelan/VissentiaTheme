@@ -15,7 +15,7 @@
                 foreach ($posts as $post) :  setup_postdata($post); 
                 ?>
                     <article>  
-                        <h3 class="entry-title title-sm"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3> 
+                        <h3 class="entry-title title-xs"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3> 
                         <div class="entry-date"><?= get_the_date(); ?></div> 
                     </article>
                 <?php endforeach; 
@@ -39,7 +39,7 @@
                 foreach ($posts as $post) :  setup_postdata($post); 
                 ?>
                     <article>  
-                        <h3 class="entry-title title-sm"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3> 
+                        <h3 class="entry-title title-xs"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3> 
                         <div class="entry-date"><?= get_the_date(); ?></div> 
                     </article>
                 <?php endforeach;?>
@@ -60,7 +60,7 @@
                 foreach ($posts as $post) :  setup_postdata($post); 
                 ?>
                     <article>  
-                        <h3 class="entry-title title-sm"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3> 
+                        <h3 class="entry-title title-xs"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3> 
                         <div class="entry-date"><?= get_the_date(); ?></div> 
                     </article>
                     
@@ -74,21 +74,20 @@
             <h3>Tecnología</h3>
             
             <?php
-            $cat_plantasMedicinales = array(
+            $cat_plantas_medicinales = array(
                 'category' => 11,
                 'numberposts' => 3
             );
                 
-                $posts = get_posts($cat_plantasMedicinales);    
+                $posts = get_posts($cat_plantas_medicinales);    
                 foreach ($posts as $post) :  setup_postdata($post); 
                 ?>
                     <article>  
-                        <h3 class="entry-title title-sm"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3> 
+                        <h3 class="entry-title title-xs"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3> 
                         <div class="entry-date"><?= get_the_date(); ?></div> 
                     </article>
-                <?php endforeach; 
-            ?> 
-
+                <?php endforeach;?>
+                
             <a href="<?=esc_url($plantas_medicinales);?>" class="posts-bc__btn">Ver más<i class="fas fa-long-arrow-alt-right"></i></a>
 
         </div>

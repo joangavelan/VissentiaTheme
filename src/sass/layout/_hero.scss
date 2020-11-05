@@ -4,13 +4,13 @@
     margin: 4rem 0;
 
     &__col-1 {
-        width: 76rem;
+        width: 58%;
         padding-right: 3rem;
         border-right: 1px solid $color-gray-light;
     }
 
     &__col-2 {
-        width: 54rem;
+        width: 42%;
         padding: 0 3rem;
     }
 }
@@ -21,7 +21,7 @@
     object-fit: cover;
 }
 
-@media only screen and (max-width: $tablet) {
+@media (max-width: $tablet) {
     .hero {
         flex-direction: column;
         margin: 5rem auto;
@@ -40,3 +40,5 @@
         }
     }
 }
+
+
