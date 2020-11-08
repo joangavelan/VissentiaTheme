@@ -51,7 +51,7 @@
     }
 
     //PHONE
-    @media (max-width: 25em) {
+    @media (max-width: $phone) {
         flex-direction: column;
         height: 100%;
 
@@ -65,7 +65,11 @@
         }
 
         &__content {
-            padding: 1rem 0;
+            padding: 1.5rem 0;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 2rem;
         }
     }
 }

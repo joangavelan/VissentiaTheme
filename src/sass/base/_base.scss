@@ -79,3 +79,8 @@ a:hover {
   .site-content{max-width: 69rem;}
   h2{font-size: 3.2rem;}
 }
+
+//PHONE
+@media (max-width: $phone) {
+  .site-content {max-width: 51rem;}
+}

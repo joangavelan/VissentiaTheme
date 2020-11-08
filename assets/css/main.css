@@ -132,6 +132,12 @@ a:hover {
   }
 }
 
+@media (max-width: calc(48em - 1px)) {
+  .site-content {
+    max-width: 51rem;
+  }
+}
+
 .heading-primary {
   font-family: "Roboto", sans-serif;
   font-size: 4.8rem;
@@ -348,12 +354,6 @@ a:hover {
   line-height: 1.6;
 }
 
-.smArt:not(:last-child) {
-  border-bottom: 1px solid #EAEAEA;
-  margin: 3rem 0;
-  padding-bottom: 3rem;
-}
-
 @media (max-width: 60em) {
   .smArt .entry-image img {
     width: 24rem;
@@ -367,6 +367,27 @@ a:hover {
   .smArt .entry-title {
     font-size: 2.1rem;
   }
+}
+
+@media (max-width: calc(48em - 1px)) {
+  .smArt {
+    flex-direction: column;
+  }
+
+  .smArt .entry-image img {
+    width: 100%;
+    height: auto !important;
+  }
+
+  .smArt .entry-content {
+    padding: 1.5rem 0;
+  }
+}
+
+.smArt:not(:last-child) {
+  border-bottom: 1px solid #EAEAEA;
+  margin: 3rem 0;
+  padding-bottom: 3rem;
 }
 
 .feed {
@@ -735,7 +756,7 @@ a:hover {
   }
 }
 
-@media (max-width: 25em) {
+@media (max-width: calc(48em - 1px)) {
   .article {
     flex-direction: column;
     height: 100%;
@@ -751,7 +772,11 @@ a:hover {
   }
 
   .article__content {
-    padding: 1rem 0;
+    padding: 1.5rem 0;
+  }
+
+  .article:not(:last-child) {
+    margin-bottom: 2rem;
   }
 }
 
