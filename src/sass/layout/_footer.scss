@@ -21,6 +21,7 @@
             height: 150px;
 
             & li:not(:last-child) {
+                display: block;
                 margin: 0 5rem 3rem 0;
             }
 
@@ -102,6 +103,10 @@
                 & a {
                     font-size: 1.6rem;
                 }
+
+                & li:not(:last-child) {
+                    margin: 0 0 3rem 0;
+                }
             }   
         }
 
@@ -125,6 +130,43 @@
         }
     }
 
+    @media (max-width: $phone) {
+        text-align: center;
+        line-height: 1.5;
+        
+        &__row:first-child {
+            flex-direction: column;
+        }
+
+        &__subscribe {
+            margin-top: 5rem;
+        }
+
+        &__links {
+            flex-direction: column;
+
+            & li {
+                margin: 1rem 0;
+            }
+
+            & span {
+                display: none;
+            }
+        }
+
+        & .suscribe-form {
+            width: 100%;
+
+            & input {
+                width: 55%;
+            }
+
+            & button {
+                width: 45%;
+            }
+        }
+    }
 }
 
 //#1B3C35 verde-oscuro-footer
+

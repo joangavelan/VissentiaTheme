@@ -138,6 +138,13 @@ a:hover {
   }
 }
 
+@media (max-width: 34em) {
+  .site-content {
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+}
+
 .heading-primary {
   font-family: "Roboto", sans-serif;
   font-size: 4.8rem;
@@ -606,6 +613,7 @@ a:hover {
 }
 
 .footer__row:first-child .footer__nav li:not(:last-child) {
+  display: block;
   margin: 0 5rem 3rem 0;
 }
 
@@ -694,6 +702,10 @@ a:hover {
     font-size: 1.6rem;
   }
 
+  .footer__row:first-child .footer__nav li:not(:last-child) {
+    margin: 0 0 3rem 0;
+  }
+
   .footer__subscribe h4 {
     font-size: 1.6rem;
   }
@@ -711,6 +723,45 @@ a:hover {
   .footer__links a,
   .footer__rights {
     font-size: 1.4rem;
+  }
+}
+
+@media (max-width: calc(48em - 1px)) {
+  .footer {
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .footer__row:first-child {
+    flex-direction: column;
+  }
+
+  .footer__subscribe {
+    margin-top: 5rem;
+  }
+
+  .footer__links {
+    flex-direction: column;
+  }
+
+  .footer__links li {
+    margin: 1rem 0;
+  }
+
+  .footer__links span {
+    display: none;
+  }
+
+  .footer .suscribe-form {
+    width: 100%;
+  }
+
+  .footer .suscribe-form input {
+    width: 55%;
+  }
+
+  .footer .suscribe-form button {
+    width: 45%;
   }
 }
 
@@ -958,6 +1009,13 @@ a:hover {
   .categories__item:nth-child(3),
   .categories__item:nth-child(4) {
     margin-top: 3rem;
+  }
+}
+
+@media (max-width: calc(48em - 1px)) {
+  .categories__item {
+    width: 100%;
+    margin: 2rem 0;
   }
 }
 
