@@ -525,6 +525,26 @@ a:hover {
   color: #1c5f51;
 }
 
+@media (max-width: 60em) {
+  .posts-bc {
+    flex-wrap: wrap;
+  }
+
+  .posts-bc__col {
+    width: 50%;
+    padding-bottom: 7rem;
+  }
+
+  .posts-bc__col:not(:last-child) {
+    border-right: 0;
+    padding-right: 0;
+  }
+
+  .posts-bc__col:nth-child(3) {
+    padding-left: 0;
+  }
+}
+
 .footer {
   font-family: "Domine", serif;
   max-width: 140rem;
