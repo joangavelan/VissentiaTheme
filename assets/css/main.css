@@ -126,6 +126,10 @@ a:hover {
   .site-content {
     max-width: 69rem;
   }
+
+  h2 {
+    font-size: 3.2rem;
+  }
 }
 
 .heading-primary {
@@ -648,6 +652,35 @@ a:hover {
 .footer__rights {
   color: #eee;
   font-size: 1.5rem;
+}
+
+@media (max-width: 60em) {
+  .footer__row:first-child .footer__nav {
+    height: auto;
+  }
+
+  .footer__row:first-child .footer__nav a {
+    font-size: 1.6rem;
+  }
+
+  .footer__subscribe h4 {
+    font-size: 1.6rem;
+  }
+
+  .footer .suscribe-form {
+    width: 42rem;
+    margin-left: auto;
+  }
+
+  .footer .suscribe-form button,
+  .footer .suscribe-form input {
+    font-size: 1.45rem;
+  }
+
+  .footer__links a,
+  .footer__rights {
+    font-size: 1.4rem;
+  }
 }
 
 .article {

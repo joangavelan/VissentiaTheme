@@ -94,6 +94,37 @@
         font-size: 1.5rem;
     }
 
+    @media (max-width: $tablet) {
+
+        &__row:first-child {
+            & .footer__nav {
+                height: auto;
+                & a {
+                    font-size: 1.6rem;
+                }
+            }   
+        }
+
+        &__subscribe h4 {
+            font-size: 1.6rem;
+        } 
+
+        & .suscribe-form {
+            width: 42rem;
+            margin-left: auto;
+
+            & button,
+            & input {
+                font-size: 1.45rem;
+            }
+        }
+
+        &__links a,
+        &__rights {
+            font-size: 1.4rem;
+        }
+    }
+
 }
 
 //#1B3C35 verde-oscuro-footer
