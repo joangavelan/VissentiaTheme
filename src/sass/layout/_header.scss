@@ -16,14 +16,14 @@
         align-items: center;
     }
 
-    & .logo__container {
+    .logo__container {
         display: flex;
         align-items: center;
         justify-content: center;
 
         & h1 {
             display: inline-block;
-            font-size: 3rem;
+            font-size: 2.7rem;
             font-family: $font-primary;
             color: #05725a;
             font-weight: 700;
@@ -38,11 +38,11 @@
         
     }
 
-    & nav {
+    &__navigation {
         width: 50%;
     }
 
-    & .menu {
+    .menu {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -60,6 +60,85 @@
         & a:active,
         & a:hover {
             color: $color-primary-dark;
+        }
+    }
+
+    .hamburger {
+        background-color: transparent;
+        border: 0;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: #555;
+        display: none;
+        width: 2rem;
+        height: 2rem;
+        margin-right: 1rem;
+        transition: .3s all ease;
+    }
+
+    @media (max-width: $tablet) {
+        position: relative;
+        padding: 1.5rem;
+
+        .container {
+            width: $site-width-tablet;
+            position: relative;
+            flex-wrap: wrap;
+        }
+
+        .logo__container h1 {
+            font-size: 2.3rem;
+        }
+
+        &__navigation {
+            width: 100%;
+            max-height: 0;
+            overflow: hidden;
+            transition: 0.3s all ease;
+        }
+
+        .menu {
+            background-color: white;
+            margin-top: 1rem;
+            flex-direction: column;
+
+            & li {
+                display: block;
+                width: 100%;
+
+                & a,
+                & a:link {
+                    text-transform: uppercase;
+                    font-size: 1.3rem;
+                    letter-spacing: 1px;
+                }
+            }
+
+            & li:not(:last-child) {
+                border-bottom: 1px solid #eee;
+                padding: 1.5rem 0;
+            }
+
+            & li:last-child {
+                padding-top: 1.5rem;
+            }
+        }
+
+        .hamburger {
+            display: block;
+        }
+
+    }
+
+    @media (max-width: $phone) {
+        .container {
+            width: $site-width-phone;
+        }
+    }
+
+    @media (max-width: 34em) {
+        .container {
+            width: 100%;
         }
     }
 

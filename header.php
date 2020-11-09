@@ -16,16 +16,20 @@
                 <a href="<?=site_url();?>"><h1>Vitae<span>Essentia</span></h1></a>
             </div>
 
-            <nav>
-            <?php
-                wp_nav_menu (
-    
-                array(
-                'theme_location' => 'top-menu',
-                )
+            <button class="hamburger">
+                    <i class="fas fa-bars"></i>
+            </button>
 
-                );
-            ?>
+            <nav class="header__navigation">
+                <?php
+                    wp_nav_menu (
+        
+                    array(
+                    'theme_location' => 'top-menu',
+                    )
+
+                    );
+                ?>
             </nav>
         </div>
     </header>

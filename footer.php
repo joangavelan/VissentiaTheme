@@ -37,7 +37,5 @@
 
         <div class="footer__rights">2020 &copy; Vissentia - Todos los Derechos Reservados</div>
     </footer>
-
-</script>
 </body>
 </html> 

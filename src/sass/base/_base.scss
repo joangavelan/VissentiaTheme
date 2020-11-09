@@ -76,13 +76,13 @@ a:hover {
 
 //TABLET
 @media (max-width: $tablet) {
-  .site-content{max-width: 69rem;}
+  .site-content{max-width: $site-width-tablet;}
   h2{font-size: 3.2rem;}
 }
 
 //PHONE
 @media (max-width: $phone) {
-  .site-content {max-width: 51rem;}
+  .site-content {max-width: $site-width-phone;}
 }
 
 @media (max-width: 34em) {
