@@ -1,3 +1,7 @@
+.m0 {
+  margin: 0;
+}
+
 .m1 {
   margin: 1rem 0;
 }
@@ -24,6 +28,10 @@
 
 .mt-a {
   margin-top: auto;
+}
+
+.mt-05 {
+  margin-top: 5px !important;
 }
 
 .mb-5 {
@@ -88,8 +96,9 @@ h4 {
 
 p {
   font-size: 1.8rem;
-  line-height: 1.6em;
-  margin: 2.5rem 0;
+  line-height: 1.65;
+  margin-bottom: 2.5rem;
+  color: #555;
 }
 
 a {
@@ -109,7 +118,7 @@ a:hover {
 .site-content {
   display: block;
   max-width: 120rem;
-  margin: 0 auto;
+  margin: 4rem auto;
 }
 
 @media (min-width: 62em) and (max-width: 77.5em) {
@@ -287,6 +296,7 @@ a:hover {
 .header .hamburger {
   background-color: transparent;
   border: 0;
+  outline: 0;
   font-size: 1.5rem;
   cursor: pointer;
   color: #555;
@@ -670,7 +680,7 @@ a:hover {
 .footer {
   font-family: "Domine", serif;
   max-width: 140rem;
-  margin: 0 auto;
+  margin: 8rem auto 0;
   padding: 8rem 4rem;
   background-color: #1B3C35;
   color: white;
@@ -863,10 +873,6 @@ a:hover {
   padding-left: 2.5rem;
 }
 
-.article__content p {
-  margin: 1.5rem 0;
-}
-
 .article:not(:last-child) {
   margin-bottom: 5rem;
 }
@@ -953,6 +959,7 @@ a:hover {
 
 .entry-description {
   color: #555;
+  margin-top: 1.5rem;
 }
 
 .entry-description > p {
