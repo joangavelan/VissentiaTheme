@@ -93,7 +93,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2.45rem;
+  font-size: 2.5rem;
 }
 
 h4 {
@@ -261,7 +261,7 @@ a:hover {
 
 .header .logo__container h1 {
   display: inline-block;
-  font-size: 2.7rem;
+  font-size: 2.9rem;
   font-family: "Domine", serif;
   color: #05725a;
   font-weight: 700;
@@ -288,7 +288,7 @@ a:hover {
 .header .menu a,
 .header .menu a:link {
   font-family: "Domine", serif;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 500;
   color: #222;
   line-height: 2.2rem;
