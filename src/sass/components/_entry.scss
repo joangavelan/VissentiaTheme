@@ -5,7 +5,7 @@
     }
 
     &-category {
-        display: block;
+        display: inline-block;
         color: #333;
         font-size: 11px;
         letter-spacing: 1px;
@@ -18,13 +18,14 @@
 
     &-title {
         font-family: $font-primary;
+        color: #222;
         margin: 0;
         font-weight: 500;
-        line-height: 1.5;
+        line-height: 1.45;
     }
 
     &-date {
-        font-size: 1.4rem;
+        font-size: 1.45rem;
         font-weight: 400;
         color: #999;
         margin-top: 1rem;

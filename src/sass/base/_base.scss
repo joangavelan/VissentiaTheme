@@ -44,18 +44,19 @@ p {
   font-size: 1.8rem;
   line-height: 1.65;
   margin-bottom: 2.5rem;
-  color: #555;
-}
-
-a {
-    text-decoration: none;
-    color: $color-text;
-    word-break: break-word;
+  color: rgb(71, 71, 71);
 }
 
 ul {
   list-style: none;
 }
+
+a {
+    text-decoration: none;
+    color: #222;
+    word-break: break-word;
+}
+
 
 a:hover {
     color: $color-primary-dark;

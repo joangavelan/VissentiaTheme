@@ -40,7 +40,7 @@ register_nav_menus (
 
 
 //Custom Image Sizes
-add_image_size('blog-large', 750, 425, true);
+add_image_size('blog-large', 1200, 470, true);
 add_image_size('blog-small', 300, 200, true);
 
 
@@ -69,7 +69,7 @@ add_action('widgets_init', 'my_sidebars');
 
 //length
 function my_excerpt_length($length){
-    return 21;
+    return 23;
     }
 
 add_filter('excerpt_length', 'my_excerpt_length');

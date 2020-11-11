@@ -1,17 +1,21 @@
 .article {
     width: 100%;
     display: flex;
-    height: 23rem;
+    height: 22rem;
 
     &__img {
         display: block;
-        width: 35rem;
+        width: 34rem;
         height: 100%;
         object-fit: cover;
     }
 
     &__content {
         padding-left: 2.5rem;
+
+        & p {
+            margin: 1.5rem 0;
+        }
     }
 
     &:not(:last-child) {
@@ -39,10 +43,6 @@
 
         &__content {
             padding: 1.6rem 0 0 3rem;
-
-            & p {
-                margin: 2.5rem 0;
-            }
         }
     }
 
