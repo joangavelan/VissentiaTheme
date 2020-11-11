@@ -85,21 +85,10 @@
     }
 }
 
-
-.sfsi_wDiv {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 50%;
-    left: 3.5rem;
-    transform: translate(0, -50%);
-    transition: .5s all linear;
-
-    & .shuffeldiv {
-        margin: 5px 0;
-    }
-
-    @media (max-width: 1440px) {
-        display: none;
+.heateor_sss_sharing_container {
+    & .heateorSssSharingRound {
+        margin: 2px 0 !important;
     }
 }
+    
+    

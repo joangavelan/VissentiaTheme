@@ -616,24 +616,8 @@ a:hover {
   }
 }
 
-.sfsi_wDiv {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  top: 50%;
-  left: 3.5rem;
-  transform: translate(0, -50%);
-  transition: 0.5s all linear;
-}
-
-.sfsi_wDiv .shuffeldiv {
-  margin: 5px 0;
-}
-
-@media (max-width: 1440px) {
-  .sfsi_wDiv {
-    display: none;
-  }
+.heateor_sss_sharing_container .heateorSssSharingRound {
+  margin: 2px 0 !important;
 }
 
 .sidebar {

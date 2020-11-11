@@ -30,8 +30,6 @@
             <?php get_template_part('includes/blog-sidebar'); ?>
         </div>
 
-        <div class="social-media-icons"><?= do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?></div>
-
     </div>
 
 <?php get_footer(); ?>
