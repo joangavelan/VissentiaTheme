@@ -27,8 +27,8 @@
 
         <div class="footer__row">
             <ul class="footer__links">
-                <li><a href="#">Términos & Condiciones</a></li><span>|</span>
-                <li><a href="#">Política de Privacidad</a></li><span>|</span>
+                <li><a href="https://vissentia.com/terminos-y-condiciones/">Términos & Condiciones</a></li><span>|</span>
+                <li><a href="https://vissentia.com/politica-de-privacidad/">Política de Privacidad</a></li><span>|</span>
                 <li><a href="#">Google Adsense</a></li><span>|</span>
                 <li><a href="#">Cookies</a></li><span>|</span>
                 <li><a href="#">Contáctanos</a></li>

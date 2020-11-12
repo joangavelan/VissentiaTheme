@@ -7,9 +7,6 @@ Template name: Nosotros
 <?php get_header(); ?>
 
 <div class="about">
-    <div class="mg-sm"></div>
-    <h1 class="site-name-vs">Vissentia</h1>
-    
     <div class="about__desc">
         <p class="paragraph about__desc-p">En Vissentia somos un equipo que admira la capacidad de la naturaleza para tratar e impulsar nuestra salud y bienestar.</p>
         
