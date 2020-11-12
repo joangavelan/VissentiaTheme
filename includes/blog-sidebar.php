@@ -17,7 +17,7 @@
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- md-vertical-ad -->
         <ins class="adsbygoogle"
-            style="display:inline-block;width:320px;height:640px"
+            style="display:inline-block;width:320px;height:650px"
             data-ad-client="ca-pub-7997794586711401"
             data-ad-slot="4663851353"></ins>
         <script>
