@@ -16,16 +16,8 @@
   margin: 3rem 0;
 }
 
-.mg-bg {
-  margin: 5rem 0;
-}
-
 .m5 {
   margin: 5rem 0;
-}
-
-.mg-hg {
-  margin: 7rem 0;
 }
 
 .mt-a {
@@ -50,6 +42,10 @@
 
 .title-sm {
   font-size: 2rem;
+}
+
+.border-bt1 {
+  border-bottom: 1px solid #d4d4d4;
 }
 
 *,
@@ -609,6 +605,24 @@ a:hover {
   text-decoration: underline;
 }
 
+.post .wp-block-table table tbody tr:nth-child(2n+3) {
+  background-color: #F8F8F8;
+}
+
+.post .wp-block-table table tbody tr:nth-child(1) td:nth-child(1) {
+  background-color: #2E4760;
+  color: white;
+}
+
+.post .wp-block-table table tbody tr:nth-child(1) td:nth-child(2) {
+  background-color: #4EC4A2;
+  color: white;
+}
+
+.post .wp-block-table table tbody tr td {
+  padding: 1rem;
+}
+
 @media (max-width: calc(48em - 1px)) {
   .post__title {
     font-size: 3rem;
@@ -618,6 +632,37 @@ a:hover {
 
 .heateor_sss_sharing_container .heateorSssSharingRound {
   margin: 2px 0 !important;
+}
+
+.c-accordion__item .c-accordion__title {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  color: #FF4E4E;
+}
+
+.c-accordion__item .c-accordion__title::after {
+  font-size: 2.5rem;
+  left: 77px;
+  color: #FF4E4E;
+}
+
+.c-accordion__item li {
+  font-weight: 350;
+  font-size: 1.5rem;
+}
+
+.c-accordion__item ul li::before {
+  color: #FF1154;
+}
+
+.c-accordion__item ul li a {
+  color: #FF4E4E;
+}
+
+.c-accordion__item ul li a:hover {
+  color: #c74747;
 }
 
 .sidebar {
@@ -1186,5 +1231,11 @@ a:hover {
   font-size: 1.28rem;
   color: #555;
   letter-spacing: 0.2px;
+}
+
+@media (max-width: 62em) {
+  .blog-sidebar {
+    display: none;
+  }
 }
 

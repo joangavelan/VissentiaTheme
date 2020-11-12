@@ -18,7 +18,7 @@
     
     <div class="feed">
 
-        <div class="feed__main">
+        <div class="feed__main border-bt1">
             <article class="post">
                 <?php get_template_part('includes/section','blogcontent'); ?>
             

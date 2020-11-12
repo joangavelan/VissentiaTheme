@@ -3,9 +3,7 @@
 .m1 {margin: 1rem 0;}
 .m2 {margin: 2rem 0;}
 .m3 {margin: 3rem 0}
-.mg-bg {margin: 5rem 0;}
 .m5 {margin: 5rem 0;}
-.mg-hg {margin: 7rem 0;}
 
 //Margin tops
 .mt-a {margin-top: auto;}
@@ -15,6 +13,9 @@
 .mb-15 {margin-bottom: 1.5rem !important;}
 .mb-5 {margin-bottom: 3rem !important;}
 
-
+//Title sizes
 .title-xs {font-size: 1.8rem;}
 .title-sm {font-size: 2rem;}
+
+//Borders
+.border-bt1 {border-bottom: 1px solid rgb(212, 212, 212);}

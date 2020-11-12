@@ -77,6 +77,26 @@
         text-decoration: underline;;
     }
 
+    .wp-block-table table tbody  {
+        & tr:nth-child(2n+3) {
+            background-color: #F8F8F8;   
+        }
+
+        & tr:nth-child(1) td:nth-child(1) {
+            background-color: #2E4760;
+            color: white;
+        }
+
+        & tr:nth-child(1) td:nth-child(2) {
+            background-color: #4EC4A2;
+            color: white;
+        }
+
+        & tr td {
+            padding: 1rem;
+        }
+    }
+
     @media (max-width: $phone) {
         &__title {
         font-size: 3rem;
@@ -85,9 +105,44 @@
     }
 }
 
+//Social media share icons
 .heateor_sss_sharing_container {
     & .heateorSssSharingRound {
         margin: 2px 0 !important;
+    }
+}
+
+//Accordion
+.c-accordion__item {
+    & .c-accordion__title {
+        position: relative;
+        font-size: 2rem;
+        font-weight: 300;
+        font-family: $font-secondary;
+        color: #FF4E4E;
+
+        &::after {
+            font-size: 2.5rem;
+            left: 77px;
+            color: #FF4E4E;
+        }
+    }
+
+    & li {
+        font-weight: 350;
+        font-size: 1.5rem;
+    }
+
+    & ul li::before {
+        color: #FF1154;
+    }
+
+    & ul li a {
+        color: #FF4E4E;
+    }
+
+    & ul li a:hover {
+        color: #c74747;
     }
 }
     

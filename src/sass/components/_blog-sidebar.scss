@@ -1,0 +1,5 @@
+.blog-sidebar {
+    @media (max-width: $tablet) {
+        display: none;
+    }
+}
