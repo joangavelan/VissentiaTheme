@@ -7,7 +7,7 @@
             <div >
                 <div class="entry-category"><a href="https://vissentia.com/superalimentos/">Superalimentos</a></div>
                 <h3 class="entry-title">
-                    <a href="https://vissentia.com/superalimentos-del-peru/">17 Plantas Medicinales Y Sus Poderosas Propiedades Curativas</a>
+                    <a href="https://vissentia.com/plantas-medicinales-y-sus-propiedades-curativas/">17 Plantas Medicinales Y Sus Poderosas Propiedades Curativas</a>
                 </h3>
             </div>
             <div class="entry-date">Lunes 13, 2020</div>
@@ -21,12 +21,12 @@
         <h3 class="sub-heading">Destacados</h3>
             <article class="entry smArt">
                 <div class="entry-image">
-                    <a href="https://vissentia.com/beneficios-de-las-semillas-de-chia/"><img src="http://vissentia.com/wp-content/uploads/2020/07/cúrcuma.jpg" alt="Cúrcuma"></a>
+                    <a href="https://vissentia.com/beneficios-de-la-curcuma-y-curcumina/"><img src="http://vissentia.com/wp-content/uploads/2020/07/cúrcuma.jpg" alt="Cúrcuma"></a>
                 </div>
                 <div class="entry-content">
                     <a href="https://vissentia.com/plantas-medicinales/" class="entry-category">Plantas medicinales</a>
                     <h3 class="entry-title">
-                        <a href="https://vissentia.com/beneficios-de-las-semillas-de-chia/">Cúrcuma: 8 Beneficios de este Anti-inflamatorio Natural</a>
+                        <a href="https://vissentia.com/beneficios-de-la-curcuma-y-curcumina/">Cúrcuma: 8 Beneficios de este Anti-inflamatorio Natural</a>
                     </h3>
                     <div class="entry-date">Lunes 14, 2020</div>
                 </div>
