@@ -1,8 +1,9 @@
 <?php get_header(); ?>
 
-    <h1 class="entry-title mb-15"><?=single_cat_title();?></h1>
-    <?php the_archive_description();?>
-    <div class="mg-bg"></div>
+    <div class="archive-heading mb-7">
+        <h1 class="entry-title mb-15"><?=single_cat_title();?></h1>
+        <?php the_archive_description();?>
+    </div>
 
     <section class="feed">
 
