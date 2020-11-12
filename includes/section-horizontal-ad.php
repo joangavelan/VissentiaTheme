@@ -1,5 +1,5 @@
 <div class="ad-section">
-    <small>Publicidad</small>
+    <small class="ad-title">Publicidad</small>
     <div class="ad-banner">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- h - ad -->

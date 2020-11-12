@@ -1258,12 +1258,6 @@ a:hover {
   padding: 7rem;
 }
 
-.ad-section small {
-  font-size: 1.28rem;
-  color: #555;
-  letter-spacing: 0.2px;
-}
-
 @media (max-width: 62em) {
   .blog-sidebar {
     display: none;
@@ -1272,6 +1266,13 @@ a:hover {
 
 .ad {
   text-align: right;
+}
+
+.ad-title {
+  line-height: 20px;
+  color: #bcbfc5;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
 }
 
 .v-ad {
