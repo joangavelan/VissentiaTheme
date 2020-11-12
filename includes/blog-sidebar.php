@@ -1,4 +1,4 @@
-<aside class="blog-sidebar pd3l">
+<aside class="blog-sidebar pdl-3">
     <!--Square-Ad-->
     <div class="sm-sq-ad ad">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
