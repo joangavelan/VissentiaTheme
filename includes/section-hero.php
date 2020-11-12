@@ -2,7 +2,7 @@
     <div class="hero__col-1 hero__cols">
         <article class="entry">
             <div class="entry-image">
-                <a href="demo-blog-single.html"><img id="featured-hero-img" src="https://vissentia.com/wp-content/uploads/2020/07/Plantas-medicinales-e1595555584544-750x425.jpg" alt="17 Plantas Medicinales"></a>
+                <a href="https://vissentia.com/plantas-medicinales-y-sus-propiedades-curativas/"><img id="featured-hero-img" src="https://vissentia.com/wp-content/uploads/2020/07/Plantas-medicinales-e1595555584544-750x425.jpg" alt="17 Plantas Medicinales"></a>
             </div>
             <div >
                 <div class="entry-category"><a href="https://vissentia.com/superalimentos/">Superalimentos</a></div>
