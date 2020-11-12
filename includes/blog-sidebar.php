@@ -1,12 +1,12 @@
 <aside class="blog-sidebar pdl-3">
     <!--Square-Ad-->
-    <div class="sm-sq-ad ad">
+    <div class="md-sq-ad ad">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- sq-sm-ad -->
+        <!-- md-square-ad -->
         <ins class="adsbygoogle"
-            style="display:inline-block;width:300px;height:250px"
+            style="display:inline-block;width:320px;height:270px"
             data-ad-client="ca-pub-7997794586711401"
-            data-ad-slot="6742385633"></ins>
+            data-ad-slot="8403446504"></ins>
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
@@ -15,11 +15,11 @@
     <!--Vertical-Ad-->
     <div class="v-ad ad">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- v-ad -->
+        <!-- md-vertical-ad -->
         <ins class="adsbygoogle"
-            style="display:inline-block;width:300px;height:600px"
+            style="display:inline-block;width:320px;height:640px"
             data-ad-client="ca-pub-7997794586711401"
-            data-ad-slot="5945390852"></ins>
+            data-ad-slot="4663851353"></ins>
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
