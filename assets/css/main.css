@@ -45,7 +45,7 @@
 }
 
 .border-bt1 {
-  border-bottom: 1px solid #d4d4d4;
+  border-bottom: 1px solid #dcdbdb;
 }
 
 *,
@@ -634,6 +634,10 @@ a:hover {
   margin: 2px 0 !important;
 }
 
+.c-accordion__item {
+  margin-bottom: 3rem;
+}
+
 .c-accordion__item .c-accordion__title {
   position: relative;
   font-size: 2rem;
@@ -1077,25 +1081,14 @@ a:hover {
 
 .read-more {
   display: inline-block;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: #222;
-  margin-top: 1.5rem;
+  font-size: 1.6rem;
+  color: #006851e7;
+  text-decoration: underline;
 }
 
-.read-more span {
-  display: inline-block;
+.read-more i {
+  font-size: 1.4rem;
   margin-left: 5px;
-  transition: 150ms;
-}
-
-.read-more:hover span {
-  transform: translateX(5px);
-}
-
-.read-more:hover {
-  color: #4FB477;
 }
 
 .category-meta {

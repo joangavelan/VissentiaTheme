@@ -1,22 +1,12 @@
 .read-more {
     display: inline-block;
-    font-family: $font-tertiary;
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: $color-text;
-    margin-top: 1.5rem;
+    font-size: 1.6rem;
+    color: #006851e7;
+    text-decoration: underline;
 
-    & span {
-        display: inline-block;
+    & i {
+        font-size: 1.4rem;
         margin-left: 5px;
-        transition: 150ms;
     }
 
-    &:hover span {
-        transform: translateX(5px);
-    }
-
-    &:hover {
-        color: $color-primary;
-    }
 }

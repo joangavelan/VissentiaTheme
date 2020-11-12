@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-    <div class="mg-bg"></div>
-
     <div class="post__heading">
             <?php 
                 $categories = get_the_category();
@@ -31,5 +29,10 @@
         </div>
 
     </div>
+
+    
+
+    <?php get_template_part('includes/section', 'related-posts'); ?>
+
 
 <?php get_footer(); ?>

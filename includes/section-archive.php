@@ -18,7 +18,7 @@
             </div>
 
     
-        </article>
+    </article>
 
 <?php endwhile; else: endif;?>
 
