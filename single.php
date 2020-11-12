@@ -15,24 +15,29 @@
     <img src="<?php the_post_thumbnail_url();?>" class="post__img" alt="<?php the_title();?>">
     
     <div class="feed">
-
-        <div class="feed__main border-bt1">
-            <article class="post">
+        <div class="feed__main">
+            <article class="post border-bt1">
                 <?php get_template_part('includes/section','blogcontent'); ?>
-            
-                <?php wp_link_pages(); ?>
             </article>
+
+            <?php get_template_part('includes/section', 'related-posts'); ?>
         </div>
 
         <div class="feed__sidebar">
             <?php get_template_part('includes/blog-sidebar'); ?>
         </div>
-
     </div>
 
-    
-
-    <?php get_template_part('includes/section', 'related-posts'); ?>
-
+    <div class="ad ad__slim-h">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- slim horizontal ad banner -->
+        <ins class="adsbygoogle"
+            style="display:inline-block;width:730px;height:90px"
+            data-ad-client="ca-pub-7997794586711401"
+            data-ad-slot="3889841649"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
 
 <?php get_footer(); ?>
