@@ -52,6 +52,10 @@
   border-bottom: 1px solid #dcdbdb;
 }
 
+.pd3l {
+  padding: 0 3rem;
+}
+
 *,
 *::before,
 *::after {
@@ -1262,6 +1266,30 @@ a:hover {
 
 @media (max-width: 62em) {
   .blog-sidebar {
+    display: none;
+  }
+}
+
+.ad {
+  background-color: #f8f8f8;
+}
+
+.v-ad {
+  position: static;
+  z-index: 9999;
+  top: 0;
+}
+
+.sm-sq-ad {
+  margin: 7px 0 3rem;
+}
+
+.slim-h {
+  text-align: center;
+}
+
+@media (max-width: 62em) {
+  .slim-h {
     display: none;
   }
 }

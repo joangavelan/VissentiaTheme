@@ -1,19 +1,19 @@
-<aside class="blog-sidebar">
+<aside class="blog-sidebar pd3l">
     <!--Square-Ad-->
-    <div class="sq-ad">
+    <div class="sm-sq-ad ad">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- s - ad -->
+        <!-- sq-sm-ad -->
         <ins class="adsbygoogle"
-            style="display:inline-block;width:390px;height:390px"
+            style="display:inline-block;width:300px;height:250px"
             data-ad-client="ca-pub-7997794586711401"
-            data-ad-slot="4859761664"></ins>
+            data-ad-slot="6742385633"></ins>
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
     </div>
 
     <!--Vertical-Ad-->
-    <div class="v-ad">
+    <div class="v-ad ad">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- v-ad -->
         <ins class="adsbygoogle"

@@ -1,0 +1,21 @@
+.ad {
+    background-color: #f8f8f8;
+}
+
+.v-ad {
+    position: static;
+    z-index: 9999;
+    top: 0;
+}
+
+.sm-sq-ad {
+    margin: 7px 0 3rem;
+}
+
+.slim-h {
+    text-align: center;
+
+    @media (max-width: $tablet) {
+        display: none;
+    }
+}

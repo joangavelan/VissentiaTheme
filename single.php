@@ -28,7 +28,7 @@
         </div>
     </div>
 
-    <div class="ad ad__slim-h">
+    <div class="slim-h ad">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- slim horizontal ad banner -->
         <ins class="adsbygoogle"
