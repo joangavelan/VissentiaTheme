@@ -151,7 +151,7 @@ a:hover {
   }
 }
 
-@media (max-width: calc(48em - 1px)) {
+@media (max-width: 47em) {
   .site-content {
     max-width: 51rem;
   }
@@ -372,7 +372,7 @@ a:hover {
   }
 }
 
-@media (max-width: calc(48em - 1px)) {
+@media (max-width: 47em) {
   .header .container {
     width: 51rem;
   }
@@ -476,7 +476,7 @@ a:hover {
   }
 }
 
-@media (max-width: calc(48em - 1px)) {
+@media (max-width: 47em) {
   .smArt {
     flex-direction: column;
   }
@@ -637,7 +637,7 @@ a:hover {
   }
 }
 
-@media (max-width: calc(48em - 1px)) {
+@media (max-width: 47em) {
   .post__title {
     font-size: 3rem;
     margin-top: -1.5rem;
@@ -796,7 +796,7 @@ a:hover {
   }
 }
 
-@media (max-width: calc(48em - 1px)) {
+@media (max-width: 47em) {
   .posts-bc__col {
     width: 100%;
   }
@@ -945,7 +945,7 @@ a:hover {
   }
 }
 
-@media (max-width: calc(48em - 1px)) {
+@media (max-width: 47em) {
   .footer {
     text-align: center;
     line-height: 1.5;
@@ -1032,7 +1032,7 @@ a:hover {
   }
 }
 
-@media (max-width: calc(48em - 1px)) {
+@media (max-width: 47em) {
   .article {
     flex-direction: column;
     height: 100%;
@@ -1238,7 +1238,7 @@ a:hover {
   }
 }
 
-@media (max-width: calc(48em - 1px)) {
+@media (max-width: 47em) {
   .categories__item {
     width: 100%;
   }
