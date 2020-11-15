@@ -1259,6 +1259,12 @@ a:hover {
 }
 
 @media (max-width: 62em) {
+  .ad-section {
+    display: none;
+  }
+}
+
+@media (max-width: 62em) {
   .blog-sidebar {
     display: none;
   }
