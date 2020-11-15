@@ -66,7 +66,7 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- s - ad -->
     <ins class="adsbygoogle"
-        style="display:inline-block;width:390px;height:390px"
+        style="display:inline-block;width:360px;height:360px"
         data-ad-client="ca-pub-7997794586711401"
         data-ad-slot="4859761664"></ins>
     <script>
