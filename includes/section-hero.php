@@ -10,7 +10,7 @@
                 'post_type' => 'post',
                 'orderby' => 'post__in'
             )
-        )    ;
+        );
 
     ?>
 
