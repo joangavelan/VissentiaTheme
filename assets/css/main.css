@@ -115,14 +115,12 @@ ul {
   list-style: none;
 }
 
-a,
-a:link {
+a {
   text-decoration: none;
   color: #222;
   word-break: break-word;
 }
 
-a:active,
 a:hover {
   color: #1c5f51;
 }
