@@ -33,8 +33,6 @@
 
     
         </article>
-
-        
     
     <?php endwhile;?>
 

@@ -1,20 +1,21 @@
+<?php
+
+    $featured_post = get_post(195);
+    
+    $featured_posts = get_posts(
+        array(
+            'include' => '550, 147, 109, 151',
+            'post_type' => 'post',
+            'orderby' => 'post__in'
+        )
+    );
+
+?>
+
 <section class="hero">
 
-    <?php
-
-        $featured_post = get_post(195);
-        
-        $featured_posts = get_posts(
-            array(
-                'include' => '550, 147, 109, 151',
-                'post_type' => 'post',
-                'orderby' => 'post__in'
-            )
-        );
-
-    ?>
-
     <div class="hero__col-1 hero__cols">
+
         <article class="entry">
             <div class="entry-image">
                 <a href="<?=get_the_permalink($featured_post);?>"><img id="featured-hero-img" src="<?=get_the_post_thumbnail_url($featured_post);?>" alt="<?php the_title();?>"></a>
@@ -30,10 +31,11 @@
                 <p>Las plantas medicinales, también conocidas como hierbas medicinales, son conocidas en todo el mundo y utilizadas en todas las culturas como fuente de medicina esencial. Las primeras evidencias de hierbas se descubrieron hace aproximadamente 5000 años, en la civilización sumeria. Desde el principio de los tiempos, la gente utilizaba las plantas para curar las diferentes enfermedades que padecían...</p>
             </div>
         </article>
+
     </div>
 
     <div class="hero__col-2 hero__cols">
-        <h3 class="sub-heading">Destacados</h3>
+    <h3 class="sub-heading">Destacados</h3>
 
     <?php if($featured_posts)?>
 
@@ -55,6 +57,5 @@
         <?php endforeach; ?>
 
     </div>
-
 
 </section>

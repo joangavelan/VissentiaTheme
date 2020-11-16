@@ -1,6 +1,6 @@
 <section class="feed">    
     <div class="feed__main">
-    <h3 class="sub-heading mb-5">Artículos Recientes</h3>
+    <h3 class="sub-heading">Artículos Recientes</h3>
         <?php get_template_part('includes/section','posts'); ?>
     </div>
 
