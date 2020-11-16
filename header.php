@@ -11,29 +11,30 @@
 
     <header class="header">
         <div class="container">
+
+            <!-- logo -->
             <div class="logo__container">
                 <a href="<?=site_url();?>"><h1>Vitae<span>Essentia</span></h1></a>
             </div>
 
+            <!-- burger -->
             <button class="hamburger">
                     <i class="fas fa-bars"></i>
             </button>
 
+            <!-- nav -->
             <nav class="header__navigation">
                 <?php
                     wp_nav_menu (
-        
-                    array(
-                    'theme_location' => 'top-menu',
-                    )
-
+                        array(
+                        'theme_location' => 'top-menu',
+                        )
                     );
                 ?>
             </nav>
+
         </div>
     </header>
-
-<div class="mg-md"></div>
 
 <main class="site-content">
 

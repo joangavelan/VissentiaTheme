@@ -4,12 +4,10 @@
             <?php 
                 $categories = get_the_category();
                 foreach($categories as $category) : ?>
-                <a href="<?= get_category_link($category->term_id);?>" class="entry-category"> <?= $category->name; ?></a>
+                <a href="<?=get_category_link($category->term_id);?>" class="entry-category"> <?=$category->name;?></a>
             <?php endforeach; ?>
-
             <h1 class="post__title entry-title"><?php the_title(); ?></h1>
-
-            <div class="entry-date"><?= get_the_date() ?></div>
+            <div class="entry-date"><?=get_the_date();?></div>
     </div>
 
     <img src="<?php the_post_thumbnail_url();?>" class="post__img" alt="<?php the_title();?>">

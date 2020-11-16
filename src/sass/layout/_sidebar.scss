@@ -2,12 +2,12 @@
     padding: 0 3rem;
     position: sticky;
     top: 100px;
-    border-left: 1px solid #E5E5E5;
+    border-left: 1px solid $color-gray-light;
 
     &__post {
         max-width: 100%;
         display: flex;
-        border-bottom: 1px solid #eee;
+        border-bottom: 1px solid $color-gray-light;
         padding-bottom: 3rem;
 
         &-counter {

@@ -16,7 +16,7 @@
         align-items: center;
         width: 24%;
         height: 23rem;
-        color: white;
+        color: $color-white;
         background-position: center;
         background-size: cover;
         outline: none;
@@ -42,7 +42,7 @@
     }
 
     &__item:hover {
-        color: white;
+        color: $color-white;
     }
 
     @media (max-width: $tablet) {

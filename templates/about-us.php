@@ -16,6 +16,4 @@ Template name: Nosotros
     </div>
 </div>
 
-
-
 <?php get_footer(); ?>

@@ -1,7 +1,5 @@
 <?php wp_footer(); ?>
 
-
-    
     </main>
     <footer class="footer">
         <div class="footer__row">

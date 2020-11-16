@@ -28,39 +28,28 @@ body {
   font-size: 1.7rem;
 }
 
-h2 {
-  font-size: 3.4rem;
-}
-
-h3 {
-  font-size: 2.5rem;
-}
-
-h4 {
-  font-size: 1.6rem;
-}
+h2 {font-size: 3rem;}
+h3 {font-size: 2.5rem;}
+h4 {font-size: 1.6rem;}
 
 p {
   font-size: 1.8rem;
   line-height: 1.65;
   margin-bottom: 2.5rem;
-  color: rgb(71, 71, 71);
+  color: $color-text;
 }
 
-ul {
-  list-style: none;
-}
+ul {list-style: none;}
 
-a {
+a,
+a:link {
     text-decoration: none;
-    color: #222;
+    color: $color-text-2;
     word-break: break-word;
 }
 
-
-a:hover {
-    color: $color-primary-dark;
-}
+a:active,
+a:hover {color: $color-primary-dark;}
 
 .site-content {
   display: block;

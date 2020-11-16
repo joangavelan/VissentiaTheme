@@ -42,9 +42,13 @@
         <?php foreach ($featured_posts as $post) : setup_postdata($post); ?>
 
             <article class="entry smArt">
-                <div class="entry-image">
-                    <a href="<?php the_permalink();?>"><img src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>"></a>
-                </div>
+
+                <?php if(has_post_thumbnail()) : ?>
+                    <div class="entry-image">
+                        <a href="<?php the_permalink();?>"><img src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>"></a>
+                    </div>
+                <?php endif; ?>
+                
                 <div class="entry-content">
                     <div class="entry-category"><?=the_category();?></div>
                     <h3 class="entry-title">
@@ -52,9 +56,10 @@
                     </h3>
                     <div class="entry-date"><?=get_the_date();?></div>
                 </div>
+                
             </article>
 
-        <?php endforeach; ?>
+        <?php endforeach; wp_reset_postdata();?>
 
     </div>
 

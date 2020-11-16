@@ -12,7 +12,7 @@
 
         & article:nth-child(2),
         & article:nth-child(3) {
-            border-bottom: 1px solid #EEE;
+            border-bottom: 1px solid $color-gray-light;
         }
 
         & article:not(:nth-child(2)) {
@@ -21,7 +21,7 @@
     }
 
     &__col:not(:last-child) {
-        border-right: 1px solid #EEE;
+        border-right: 1px solid $color-gray-light;
         padding-right: 3rem;
     }
 
@@ -36,12 +36,12 @@
         & i {
             font-size: 1.4rem;
             margin-left: 5px;
-            color: #444;
+            color: $color-text-4;
         } 
     }
 
     &__btn:hover > * {
-        color: #1c5f51;
+        color: $color-primary-dark;
     }
 
     @media (max-width: $tablet) {

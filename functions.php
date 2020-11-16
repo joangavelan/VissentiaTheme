@@ -21,8 +21,6 @@ function vissentia_scripts() {
 
 }
 
-
-
 add_action('wp_enqueue_scripts', 'vissentia_scripts');
 
 
@@ -47,10 +45,8 @@ add_image_size('blog-large', 1200, 530, true);
 add_image_size('blog-small', 340, 220, true);
 
 
-
 //Register Sidebars
 function my_sidebars() {
-
 
     register_sidebar(
 
@@ -60,9 +56,7 @@ function my_sidebars() {
             'before_title' => '<h4 class="widget-title">',
             'after_title' => '</h4>'
         )
-
     );
-
 }
 
 add_action('widgets_init', 'my_sidebars');
@@ -72,7 +66,7 @@ add_action('widgets_init', 'my_sidebars');
 //length
 function my_excerpt_length($length){
     return 23;
-    }
+}
 
 add_filter('excerpt_length', 'my_excerpt_length');
 
@@ -80,4 +74,5 @@ add_filter('excerpt_length', 'my_excerpt_length');
 function new_excerpt_more($more) {
 	return '...';
 }
+
 add_filter('excerpt_more', 'new_excerpt_more');

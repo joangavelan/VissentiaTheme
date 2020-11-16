@@ -27,15 +27,12 @@
             <div class="article__content">
                 <div class="article__category entry-category"><?= the_category(); ?></div>
                 <h3 class="entry-title"><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
-                <div class="entry-date"><?= get_the_date() ;?></div>
+                <div class="entry-date"><?=get_the_date();?></div>
                 <div class="entry-description"><?php the_excerpt();?></div>
             </div>
-
     
         </article>
     
     <?php endwhile;?>
 
 <?php endif;?>
-
-

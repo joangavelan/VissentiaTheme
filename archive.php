@@ -7,13 +7,14 @@
 
     <section class="feed">
 
-    <div class="feed__main">
-        <?php get_template_part('includes/section','archive'); ?>
-    </div>
+        <div class="feed__main">
+            <?php get_template_part('includes/section','archive'); ?>
+        </div>
 
+        <div class="feed__sidebar">
+            <?php get_template_part('includes/blog-sidebar'); ?>
+        </div>
 
-    <div class="feed__sidebar">
-        <?php get_template_part('includes/blog-sidebar'); ?>
-    </div>
+    </section>
 
 <?php get_footer(); ?>

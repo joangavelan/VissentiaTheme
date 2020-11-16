@@ -43,7 +43,6 @@
         line-height: 1.5;
         font-weight: 500;
         font-size: 1.8rem;
-        color: #333;
     }
 
     li:last-child {
@@ -52,7 +51,7 @@
 
     ul li::before {
         content: "\2022";
-        color: #FF1154;
+        color: $color-secondary-light;
         font-size: 2.3rem;
         display: inline-block;
         width: .8em;
@@ -65,14 +64,15 @@
     & h4 {
         margin: 4.5rem 0 1.5rem;
         font-weight: 600;
-        color: #222;
     }
 
-    a {
-        color: #006851e7;
+    a,
+    a:link {
+        color: $color-primary;
         line-height: 1.5;
     }
 
+    a:active,
     a:hover {
         text-decoration: underline;;
     }
@@ -84,12 +84,12 @@
 
         & tr:nth-child(1) td:nth-child(1) {
             background-color: #2E4760;
-            color: white;
+            color: $color-white;
         }
 
         & tr:nth-child(1) td:nth-child(2) {
             background-color: #4EC4A2;
-            color: white;
+            color: $color-white;
         }
 
         & tr td {
@@ -113,9 +113,11 @@
 
 //Social media share icons
 .heateor_sss_sharing_container {
+
     & .heateorSssSharingRound {
         margin: 2px 0 !important;
     }
+
 }
 
 //Accordion
@@ -127,12 +129,12 @@
         font-size: 2rem;
         font-weight: 300;
         font-family: $font-secondary;
-        color: #FF4E4E;
+        color: $color-secondary;
 
         &::after {
             font-size: 2.5rem;
             left: 77px;
-            color: #FF4E4E;
+            color: $color-secondary;
         }
     }
 
@@ -146,15 +148,17 @@
     }
 
     & ul li::before {
-        color: #FF1154;
+        color: $color-secondary-light;
     }
 
-    & ul li a {
-        color: #FF4E4E;
+    & ul li a,
+    & ul li a:link {
+        color: $color-secondary;
     }
 
+    & ul li a:active,
     & ul li a:hover {
-        color: #c74747;
+        color: $color-secondary-dark;
     }
 }
     

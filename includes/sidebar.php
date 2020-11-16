@@ -15,7 +15,7 @@
     <h3 class="sub-heading">Recomendados</h3>
 
     <ul class="sidebar__posts">
-    
+
     <?php if($recommended_posts);?>
 
         <?php foreach($recommended_posts as $post) : setup_postdata($post);?>
@@ -32,8 +32,8 @@
                 </div>
             </li>
 
-        <?php endforeach;?>
-
+        <?php endforeach; wp_reset_postdata();?>
+        
     </ul>
     
     <h3 class="sub-heading m3">Ad</h3>

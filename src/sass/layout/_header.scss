@@ -1,10 +1,10 @@
 .header {
     position: sticky;
-    background-color: white;
+    background-color: $color-white;
     top: 0;
     left: 0;
     z-index: 1000;
-    border-bottom: 2px solid #EEE;
+    border-bottom: 2px solid $color-gray-light;
     padding: 1.2rem 3rem;
 
     .container {
@@ -25,14 +25,14 @@
             display: inline-block;
             font-size: 2.9rem;
             font-family: $font-primary;
-            color: #05725a;
+            color: $color-primary;
             font-weight: 700;
             margin: 0;
         }
 
         & span {
             margin-left: 1.5px;
-            color: rgb(73, 73, 73);
+            color: $color-text;
             font-weight: 300;
         }
         
@@ -69,7 +69,7 @@
         outline: 0;
         font-size: 1.5rem;
         cursor: pointer;
-        color: #555;
+        color: $color-text;
         display: none;
         width: 2rem;
         height: 2rem;
@@ -99,7 +99,7 @@
         }
 
         .menu {
-            background-color: white;
+            background-color: $color-white;
             margin-top: 1rem;
             flex-direction: column;
 
@@ -116,7 +116,7 @@
             }
 
             & li:not(:last-child) {
-                border-bottom: 1px solid #eee;
+                border-bottom: 1px solid $color-gray-light;
                 padding: 1.5rem 0;
             }
 

@@ -4,7 +4,7 @@
     margin: 8rem auto 0;
     padding: 8rem 4rem;
     background-color: #1B3C35;
-    color: white;
+    color: $color-white;
     border-radius: 3px;
 
     &__row:first-child {
@@ -27,7 +27,7 @@
 
             & a {
                 font-size: 1.6rem;
-                color: white;
+                color: $color-white;
             }
         }   
     }
@@ -66,13 +66,13 @@
             outline: none;
             border: 1px solid rgba(255, 255, 255, 0.308);
             border-radius: 0 3px 3px 0;
-            color: white;
+            color: $color-white;
             cursor: pointer;
         }
 
         & button:hover {
-            background-color: white;
-            color: #1c5f51;
+            background-color: $color-white;
+            color: $color-primary-dark;
         }
     }
 
@@ -86,12 +86,12 @@
 
         & a {
             font-size: 1.5rem;
-            color: #eee;
+            color: $color-gray-light;
         }
     }
     
     &__rights {
-        color: #eee;
+        color: $color-gray-light;
         font-size: 1.5rem;
     }
 
@@ -167,6 +167,3 @@
         }
     }
 }
-
-//#1B3C35 verde-oscuro-footer
-

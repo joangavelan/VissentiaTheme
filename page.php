@@ -8,7 +8,7 @@
 
     <?php if(has_post_thumbnail()) : ?>
 
-        <img src="<?php the_post_thumbnail_url('blog-small');?>" alt="<?php the_title();?>">
+        <img src="<?php the_post_thumbnail_url();?>" alt="<?php the_title();?>">
 
     <?php endif; ?>
 
