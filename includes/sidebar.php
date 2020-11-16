@@ -13,8 +13,9 @@
 
 <aside class="sidebar">
     <h3 class="sub-heading">Recomendados</h3>
-    <ul class="sidebar__posts">
 
+    <ul class="sidebar__posts">
+    
     <?php if($recommended_posts);?>
 
         <?php foreach($recommended_posts as $post) : setup_postdata($post);?>
